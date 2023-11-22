@@ -1,0 +1,556 @@
+active unique 
+broadband-universal-service disable 
+broadband-universal-service enable 
+clear erps instance 0 statistics 
+clear erps statistics 
+clear onu-auto-image cccc 
+clear onu-com-statistic com 1 
+clear onu-com-statistic 
+ctc-multicast fastleave disable 
+ctc-multicast fastleave enable 
+ctc-multicast mode disable-igmp-snooping 
+ctc-multicast mode igmp-mld-snooping 
+ctc-multicast mode multicast-ctrl 
+exit 
+no 10g-epon onu-spanning-tree forward-time 
+no 10g-epon onu-spanning-tree hello-time 
+no active unique 
+no ctc-multicast-ctrl mac A:A:A:A:A:A vlan 1 
+no ctc-multicast-ctrl mac A:A:A:A:A:A 
+no ctc-multicast-ctrl vlan 1 mac A:A:A:A:A:A 
+no ctc-multicast-ctrl vlan 1 
+no onu-bandwidth downstream 
+no onu-bandwidth upstream 
+no onu-binding 
+no onu-classification all 
+no onu-classification precedence 1 
+no onu-com-session com 1 
+no onu-cpu-rate police 
+no onu-crypto 
+no onu-ctc-dba 
+no onu-ctc-sla 
+no onu-description 
+no onu-ip address 
+no onu-ip vlan 
+no onu-mac-address-table max-mac-count 
+no onu-opm-threshold 
+no onu-p2p 
+no onu-port-isolation all 
+no onu-port-isolation ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+no onu-port-isolation ethernet 1/1 ethernet 1/1 ethernet 1/1 
+no onu-port-isolation ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+no onu-port-isolation ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+no onu-port-isolation ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+no onu-port-isolation ethernet 1/1 ethernet 1/1 
+no onu-port-isolation ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+no onu-port-isolation ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+no onu-port-isolation ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+no onu-port-isolation ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+no onu-port-isolation ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+no onu-port-isolation ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+no onu-port-isolation ethernet 1/1 to ethernet 1/1 
+no onu-port-isolation ethernet 1/1 
+no onu-pppoe 
+no onu-spanning-tree maxage 
+no onu-spanning-tree priority 
+no onu-spanning-tree remote-loop-detect 
+no onu-spanning-tree 
+no onu-wifi 
+onu cccccccc 
+onu del cccccccc 
+onu model ccc onu-image c filter-sw cccc slot-list c pon-list 0/1 
+onu model ccc onu-image c filter-sw cccc slot-list c 
+onu model ccc onu-image c filter-sw cccc 
+onu model ccc onu-image c sw cccc 
+onu model ccc onu-image c 
+onu-bandwidth downstream pir 512 burst 128 
+onu-bandwidth downstream pir 512 
+onu-bandwidth upstream fir 0 cir 0 pir 512 weight 1 
+onu-binding mac A:A:A:A:A:A type 04v2 
+onu-binding mac A:A:A:A:A:A type 04vp 
+onu-binding mac A:A:A:A:A:A type 04g2 
+onu-binding mac A:A:A:A:A:A type 08v3 
+onu-binding mac A:A:A:A:A:A type 10gs 
+onu-binding mac A:A:A:A:A:A type 10g0 
+onu-binding mac A:A:A:A:A:A type 24v2 
+onu-binding mac A:A:A:A:A:A type 101s 
+onu-binding mac A:A:A:A:A:A type 102s 
+onu-binding mac A:A:A:A:A:A type 104s 
+onu-binding mac A:A:A:A:A:A type 108s 
+onu-binding mac A:A:A:A:A:A type 108x 
+onu-binding mac A:A:A:A:A:A type 110 
+onu-binding mac A:A:A:A:A:A type 110s 
+onu-binding mac A:A:A:A:A:A type 113s 
+onu-binding mac A:A:A:A:A:A type 140s 
+onu-binding mac A:A:A:A:A:A type 204g 
+onu-binding mac A:A:A:A:A:A type 204m 
+onu-binding mac A:A:A:A:A:A type 204v 
+onu-binding mac A:A:A:A:A:A type 204s 
+onu-binding mac A:A:A:A:A:A type 216h 
+onu-binding mac A:A:A:A:A:A type 224h 
+onu-binding mac A:A:A:A:A:A type 504r 
+onu-binding mac A:A:A:A:A:A type 504s 
+onu-binding mac A:A:A:A:A:A type 604s 
+onu-binding mac A:A:A:A:A:A type 804r 
+onu-binding mac A:A:A:A:A:A type 1020 
+onu-binding mac A:A:A:A:A:A type 1100 
+onu-binding mac A:A:A:A:A:A type 2040 
+onu-binding mac A:A:A:A:A:A type 2080 
+onu-binding mac A:A:A:A:A:A type 2130 
+onu-binding mac A:A:A:A:A:A type 2131 
+onu-binding mac A:A:A:A:A:A type 2132 
+onu-binding mac A:A:A:A:A:A type 2133 
+onu-binding mac A:A:A:A:A:A type 2134 
+onu-binding mac A:A:A:A:A:A type 2160 
+onu-binding mac A:A:A:A:A:A type 2240 
+onu-binding mac A:A:A:A:A:A type 2400 
+onu-binding mac A:A:A:A:A:A type 2401 
+onu-binding mac A:A:A:A:A:A type 2402 
+onu-binding mac A:A:A:A:A:A type 2403 
+onu-binding mac A:A:A:A:A:A type 3020 
+onu-binding mac A:A:A:A:A:A type 3040 
+onu-binding mac A:A:A:A:A:A type 5040 
+onu-binding mac A:A:A:A:A:A type 6040 
+onu-binding mac A:A:A:A:A:A type 7040 
+onu-binding mac A:A:A:A:A:A type 9040 
+onu-binding mac A:A:A:A:A:A type ccc 
+onu-binding mac A:A:A:A:A:A type i04f 
+onu-binding mac A:A:A:A:A:A type i04g 
+onu-binding mac A:A:A:A:A:A type other 
+onu-binding mac A:A:A:A:A:A 
+onu-binding type 04v2 mac A:A:A:A:A:A 
+onu-binding type 04v2 
+onu-binding type 04vp mac A:A:A:A:A:A 
+onu-binding type 04vp 
+onu-binding type 04g2 mac A:A:A:A:A:A 
+onu-binding type 04g2 
+onu-binding type 08v3 mac A:A:A:A:A:A 
+onu-binding type 08v3 
+onu-binding type 10gs mac A:A:A:A:A:A 
+onu-binding type 10gs 
+onu-binding type 10g0 mac A:A:A:A:A:A 
+onu-binding type 10g0 
+onu-binding type 24v2 mac A:A:A:A:A:A 
+onu-binding type 24v2 
+onu-binding type 101s mac A:A:A:A:A:A 
+onu-binding type 101s 
+onu-binding type 102s mac A:A:A:A:A:A 
+onu-binding type 102s 
+onu-binding type 104s mac A:A:A:A:A:A 
+onu-binding type 104s 
+onu-binding type 108s mac A:A:A:A:A:A 
+onu-binding type 108s 
+onu-binding type 108x mac A:A:A:A:A:A 
+onu-binding type 108x 
+onu-binding type 110 mac A:A:A:A:A:A 
+onu-binding type 110 
+onu-binding type 110s mac A:A:A:A:A:A 
+onu-binding type 110s 
+onu-binding type 113s mac A:A:A:A:A:A 
+onu-binding type 113s 
+onu-binding type 140s mac A:A:A:A:A:A 
+onu-binding type 140s 
+onu-binding type 204g mac A:A:A:A:A:A 
+onu-binding type 204g 
+onu-binding type 204m mac A:A:A:A:A:A 
+onu-binding type 204m 
+onu-binding type 204v mac A:A:A:A:A:A 
+onu-binding type 204v 
+onu-binding type 204s mac A:A:A:A:A:A 
+onu-binding type 204s 
+onu-binding type 216h mac A:A:A:A:A:A 
+onu-binding type 216h 
+onu-binding type 224h mac A:A:A:A:A:A 
+onu-binding type 224h 
+onu-binding type 504r mac A:A:A:A:A:A 
+onu-binding type 504r 
+onu-binding type 504s mac A:A:A:A:A:A 
+onu-binding type 504s 
+onu-binding type 604s mac A:A:A:A:A:A 
+onu-binding type 604s 
+onu-binding type 804r mac A:A:A:A:A:A 
+onu-binding type 804r 
+onu-binding type 1020 mac A:A:A:A:A:A 
+onu-binding type 1020 
+onu-binding type 1100 mac A:A:A:A:A:A 
+onu-binding type 1100 
+onu-binding type 2040 mac A:A:A:A:A:A 
+onu-binding type 2040 
+onu-binding type 2080 mac A:A:A:A:A:A 
+onu-binding type 2080 
+onu-binding type 2130 mac A:A:A:A:A:A 
+onu-binding type 2130 
+onu-binding type 2131 mac A:A:A:A:A:A 
+onu-binding type 2131 
+onu-binding type 2132 mac A:A:A:A:A:A 
+onu-binding type 2132 
+onu-binding type 2133 mac A:A:A:A:A:A 
+onu-binding type 2133 
+onu-binding type 2134 mac A:A:A:A:A:A 
+onu-binding type 2134 
+onu-binding type 2160 mac A:A:A:A:A:A 
+onu-binding type 2160 
+onu-binding type 2240 mac A:A:A:A:A:A 
+onu-binding type 2240 
+onu-binding type 2400 mac A:A:A:A:A:A 
+onu-binding type 2400 
+onu-binding type 2401 mac A:A:A:A:A:A 
+onu-binding type 2401 
+onu-binding type 2402 mac A:A:A:A:A:A 
+onu-binding type 2402 
+onu-binding type 2403 mac A:A:A:A:A:A 
+onu-binding type 2403 
+onu-binding type 3020 mac A:A:A:A:A:A 
+onu-binding type 3020 
+onu-binding type 3040 mac A:A:A:A:A:A 
+onu-binding type 3040 
+onu-binding type 5040 mac A:A:A:A:A:A 
+onu-binding type 5040 
+onu-binding type 6040 mac A:A:A:A:A:A 
+onu-binding type 6040 
+onu-binding type 7040 mac A:A:A:A:A:A 
+onu-binding type 7040 
+onu-binding type 9040 mac A:A:A:A:A:A 
+onu-binding type 9040 
+onu-binding type ccc mac A:A:A:A:A:A 
+onu-binding type ccc 
+onu-binding type i04f mac A:A:A:A:A:A 
+onu-binding type i04f 
+onu-binding type i04g mac A:A:A:A:A:A 
+onu-binding type i04g 
+onu-binding type other mac A:A:A:A:A:A 
+onu-binding type other 
+onu-catv-switch disable 
+onu-catv-switch enable 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 any 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 dscp 0 ip-protocol 0 source-ip 1.1.1.1 source-mac A:A:A:A:A:A vlan 1 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 dscp 0 ip-protocol 0 source-ip 1.1.1.1 source-mac A:A:A:A:A:A 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 dscp 0 ip-protocol 0 source-ip 1.1.1.1 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 dscp 0 ip-protocol 0 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 dscp 0 ip-protocol gre 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 dscp 0 ip-protocol icmp 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 dscp 0 ip-protocol igmp 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 dscp 0 ip-protocol ipinip 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 dscp 0 ip-protocol ospf 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 dscp 0 ip-protocol tcp 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 dscp 0 ip-protocol udp 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 dscp 0 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 dot1p-priority 0 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A destination-port 0 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A ipv6-precedence 0 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A source-port 0 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 destination-mac A:A:A:A:A:A 
+onu-classification precedence 1 que-mapped 0 ethernet-priority 0 destination-ip 1.1.1.1 
+onu-com-session 1 tcpclient 1.1.1.1 1 0 0 0 0 0 
+onu-com-session 1 tcpclient 1.1.1.1 1 0 0 0 0 
+onu-com-session 1 tcpclient 1.1.1.1 1 0 0 0 
+onu-com-session 1 tcpclient 1.1.1.1 1 0 0 
+onu-com-session 1 tcpclient 1.1.1.1 1 0 
+onu-com-session 1 tcpclient 1.1.1.1 1 
+onu-com-session 1 tcpserver 1 0 0 0 0 0 
+onu-com-session 1 tcpserver 1 0 0 0 0 
+onu-com-session 1 tcpserver 1 0 0 0 
+onu-com-session 1 tcpserver 1 0 0 
+onu-com-session 1 tcpserver 1 0 
+onu-com-session 1 tcpserver 1 
+onu-com-session 1 udp 1.1.1.1 1 0 0 0 0 0 
+onu-com-session 1 udp 1.1.1.1 1 0 0 0 0 
+onu-com-session 1 udp 1.1.1.1 1 0 0 0 
+onu-com-session 1 udp 1.1.1.1 1 0 0 
+onu-com-session 1 udp 1.1.1.1 1 0 
+onu-com-session 1 udp 1.1.1.1 1 
+onu-cpu-rate police ratio 1 burst 128 token 1 
+onu-crypto 
+onu-ctc-sla scheduling-scheme sp priority-boundary 0 cycle-length 0 queue-number 0 packet-size 0 fixed-bandwidth 0 guaranteed-bandwidth 0 best-bandwidth 0 wrr-weight 0 queue-number 0 packet-size 0 fixed-bandwidth 0 guaranteed-bandwidth 0 best-bandwidth 0 wrr-weight 0 queue-number 0 packet-size 0 fixed-bandwidth 0 guaranteed-bandwidth 0 best-bandwidth 0 wrr-weight 0 queue-number 0 packet-size 0 fixed-bandwidth 0 guaranteed-bandwidth 0 best-bandwidth 0 wrr-weight 0 
+onu-ctc-sla scheduling-scheme sp priority-boundary 0 cycle-length 0 queue-number 0 packet-size 0 fixed-bandwidth 0 guaranteed-bandwidth 0 best-bandwidth 0 wrr-weight 0 queue-number 0 packet-size 0 fixed-bandwidth 0 guaranteed-bandwidth 0 best-bandwidth 0 wrr-weight 0 queue-number 0 packet-size 0 fixed-bandwidth 0 guaranteed-bandwidth 0 best-bandwidth 0 wrr-weight 0 
+onu-ctc-sla scheduling-scheme sp priority-boundary 0 cycle-length 0 queue-number 0 packet-size 0 fixed-bandwidth 0 guaranteed-bandwidth 0 best-bandwidth 0 wrr-weight 0 queue-number 0 packet-size 0 fixed-bandwidth 0 guaranteed-bandwidth 0 best-bandwidth 0 wrr-weight 0 
+onu-ctc-sla scheduling-scheme sp priority-boundary 0 cycle-length 0 queue-number 0 packet-size 0 fixed-bandwidth 0 guaranteed-bandwidth 0 best-bandwidth 0 wrr-weight 0 
+onu-ctc-upgrade 
+onu-ctc-upgrade-commit 
+onu-description c 
+onu-event-alarm loopback disable 
+onu-event-alarm loopback enable 
+onu-fec mode disable 
+onu-fec mode enable 
+onu-ip address static 1.1.1.1 1.1.1.1 1.1.1.1 
+onu-ip address static 1.1.1.1 1.1.1.1 
+onu-ip vlan cvlan 1 priority 0 svlan 0 
+onu-ip vlan cvlan 1 priority 0 
+onu-ip vlan cvlan 1 svlan 0 priority 0 
+onu-ip vlan cvlan 1 svlan 0 
+onu-ip vlan cvlan 1 
+onu-laser reset 
+onu-laser shutdown 
+onu-laser shutdown-time 1 
+onu-mac-address-table max-mac-count 1 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c temp-high-alarm c temp-high-warning c temp-low-alarm c temp-low-warning c tx-high-alarm c tx-high-warning c tx-low-alarm c tx-low-warning c voltage-high-alarm c voltage-high-warning c voltage-low-alarm c voltage-low-warning c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c temp-high-alarm c temp-high-warning c temp-low-alarm c temp-low-warning c tx-high-alarm c tx-high-warning c tx-low-alarm c tx-low-warning c voltage-high-alarm c voltage-high-warning c voltage-low-alarm c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c temp-high-alarm c temp-high-warning c temp-low-alarm c temp-low-warning c tx-high-alarm c tx-high-warning c tx-low-alarm c tx-low-warning c voltage-high-alarm c voltage-high-warning c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c temp-high-alarm c temp-high-warning c temp-low-alarm c temp-low-warning c tx-high-alarm c tx-high-warning c tx-low-alarm c tx-low-warning c voltage-high-alarm c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c temp-high-alarm c temp-high-warning c temp-low-alarm c temp-low-warning c tx-high-alarm c tx-high-warning c tx-low-alarm c tx-low-warning c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c temp-high-alarm c temp-high-warning c temp-low-alarm c temp-low-warning c tx-high-alarm c tx-high-warning c tx-low-alarm c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c temp-high-alarm c temp-high-warning c temp-low-alarm c temp-low-warning c tx-high-alarm c tx-high-warning c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c temp-high-alarm c temp-high-warning c temp-low-alarm c temp-low-warning c tx-high-alarm c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c temp-high-alarm c temp-high-warning c temp-low-alarm c temp-low-warning c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c temp-high-alarm c temp-high-warning c temp-low-alarm c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c temp-high-alarm c temp-high-warning c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c temp-high-alarm c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c rx-low-warning c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c rx-low-alarm c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c rx-high-warning c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c rx-high-alarm c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c bias-low-warning c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c bias-low-alarm c 
+onu-opm-threshold bias-high-alarm c bias-high-warning c 
+onu-opm-threshold bias-high-alarm c 
+onu-p2p 
+onu-port-isolation all 
+onu-port-isolation ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+onu-port-isolation ethernet 1/1 ethernet 1/1 ethernet 1/1 
+onu-port-isolation ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+onu-port-isolation ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+onu-port-isolation ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+onu-port-isolation ethernet 1/1 ethernet 1/1 
+onu-port-isolation ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+onu-port-isolation ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+onu-port-isolation ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+onu-port-isolation ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+onu-port-isolation ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+onu-port-isolation ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+onu-port-isolation ethernet 1/1 to ethernet 1/1 
+onu-port-isolation ethernet 1/1 
+onu-port-statistics disable 
+onu-port-statistics enable monitorperiod 1 
+onu-port-statistics enable 
+onu-pppoe account c password c 
+onu-reboot 
+onu-spanning-tree forward-time 4 
+onu-spanning-tree hello-time 1 
+onu-spanning-tree maxage 6 
+onu-spanning-tree priority 0 
+onu-spanning-tree remote-loop-detect 
+onu-spanning-tree 
+onu-vlan-mode tag vlan 1 priority 0 
+onu-vlan-mode tag vlan 1 
+onu-vlan-mode transparent 
+onu-wifi security-mode open ssid c 
+onu-wifi security-mode wpa ssid c password c 
+onu-wifi security-mode wpa2 ssid c password c 
+show broadband-universal-service status 
+show ctc-multicast fastleave 
+show ctc-multicast mode 
+show ctc-multicast-ctrl local-ctrl 
+show interface brief ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 ethernet 1/1 pon 0/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 pon 0/1 ethernet 1/1 
+show interface brief ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 pon 0/1 pon 0/1 
+show interface brief ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface brief ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface brief ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 
+show interface brief pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 ethernet 1/1 ethernet 1/1 
+show interface brief pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 ethernet 1/1 pon 0/1 
+show interface brief pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface brief pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 ethernet 1/1 
+show interface brief pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 pon 0/1 ethernet 1/1 
+show interface brief pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 pon 0/1 pon 0/1 
+show interface brief pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface brief pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface brief pon 0/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 pon 0/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 
+show interface brief pon 0/1 to pon 0/1 
+show interface brief pon 0/1 
+show interface brief 
+show interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 ethernet 1/1 pon 0/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 pon 0/1 ethernet 1/1 
+show interface ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 pon 0/1 pon 0/1 
+show interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface ethernet 1/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 
+show interface pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 ethernet 1/1 ethernet 1/1 
+show interface pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 ethernet 1/1 pon 0/1 
+show interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 ethernet 1/1 
+show interface pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 pon 0/1 ethernet 1/1 
+show interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 pon 0/1 pon 0/1 
+show interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface pon 0/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 pon 0/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 
+show interface pon 0/1 to pon 0/1 
+show interface pon 0/1 
+show interface sfp ethernet 1/1 
+show interface sfp pon 0/1 
+show interface sfp 
+show interface switchport backup 
+show interface 
+show onu address 
+show onu downstream 
+show onu egress 
+show onu ingress 
+show onu loopback 
+show onu max-mac-count 
+show onu offline mac A:A:A:A:A:A 
+show onu offline slot 0 port 1 
+show onu offline slot 0 
+show onu offline 
+show onu police 
+show onu pon 1 
+show onu remote-loop-detect 
+show onu upstream 
+show onu vlan 
+show onu-bandwidth downstream 
+show onu-bandwidth egress 
+show onu-bandwidth ingress 
+show onu-bandwidth upstream 
+show onu-catv-switch 
+show onu-classification 
+show onu-com-session com 1 
+show onu-com-session 
+show onu-cpu-rate police 
+show onu-crypto 
+show onu-ctc-dba 
+show onu-ctc-sla 
+show onu-description 
+show onu-event-alarm loopback 
+show onu-fec 
+show onu-ip address 
+show onu-ip vlan 
+show onu-mac-address-table max-mac-count 
+show onu-opm-threshold 
+show onu-port-isolation 
+show onu-pppoe 
+show onu-spanning-tree remote-loop-detect 
+show onu-spanning-tree 
+show onu-vlan-mode 
+show onu-wifi 

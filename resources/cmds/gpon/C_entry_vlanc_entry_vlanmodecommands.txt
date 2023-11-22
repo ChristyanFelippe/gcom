@@ -1,0 +1,22 @@
+active 
+add inner-vlan 0 0 outer-vlan 1 0 
+add inner-vlan 0 0 outer-vlan 1 
+add inner-vlan 0 outer-vlan 1 0 
+add inner-vlan 0 outer-vlan 1 
+aim 0 name c 
+aim 0 
+aim name c 
+default vlan 1 0 
+default vlan 1 
+exit 
+no add inner-vlan 0 0 
+no add inner-vlan 0 
+no default vlan 
+no translate old-vlan 0 0 
+no translate old-vlan 0 
+no translate-and-add old-vlan 0 
+translate old-vlan 0 0 new-vlan 1 0 
+translate old-vlan 0 0 new-vlan 1 
+translate old-vlan 0 new-vlan 1 0 
+translate old-vlan 0 new-vlan 1 
+translate-and-add old-vlan 0 new-vlan 1 outer-vlan 1 

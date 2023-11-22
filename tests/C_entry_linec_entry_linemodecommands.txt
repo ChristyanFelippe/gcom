@@ -1,0 +1,396 @@
+active 
+aim 0 name c 
+aim 0 
+aim name c 
+alarm profile refer 0 
+alarm profile refer name c 
+device type i10-100 
+device type i10-420 
+device type i30-100 
+device type i40-100 
+device type i40-100-v2 
+device type i40-201 
+device type i40-211 
+device type i40-400-1 
+device type i40-401 
+device type i40-411 
+device type i40-421 
+device type i41-100 
+device type i41-201 
+device type i41-211 
+device type i41-421 
+exit 
+flow 0 port eth 1 default vlan 1 0 
+flow 0 port eth 1 default vlan 1 
+flow 0 port eth 1 etype arp default vlan 1 0 
+flow 0 port eth 1 etype arp default vlan 1 
+flow 0 port eth 1 etype arp transparent 
+flow 0 port eth 1 etype arp vlan 1 0 keep 
+flow 0 port eth 1 etype arp vlan 1 0 translate vlan 1 0 
+flow 0 port eth 1 etype arp vlan 1 0 translate vlan 1 
+flow 0 port eth 1 etype arp vlan 1 keep 
+flow 0 port eth 1 etype arp vlan 1 translate vlan 1 0 
+flow 0 port eth 1 etype arp vlan 1 translate vlan 1 
+flow 0 port eth 1 etype ipoe default vlan 1 0 
+flow 0 port eth 1 etype ipoe default vlan 1 
+flow 0 port eth 1 etype ipoe transparent 
+flow 0 port eth 1 etype ipoe vlan 1 0 keep 
+flow 0 port eth 1 etype ipoe vlan 1 0 translate vlan 1 0 
+flow 0 port eth 1 etype ipoe vlan 1 0 translate vlan 1 
+flow 0 port eth 1 etype ipoe vlan 1 keep 
+flow 0 port eth 1 etype ipoe vlan 1 translate vlan 1 0 
+flow 0 port eth 1 etype ipoe vlan 1 translate vlan 1 
+flow 0 port eth 1 etype pppoe default vlan 1 0 
+flow 0 port eth 1 etype pppoe default vlan 1 
+flow 0 port eth 1 etype pppoe transparent 
+flow 0 port eth 1 etype pppoe vlan 1 0 keep 
+flow 0 port eth 1 etype pppoe vlan 1 0 translate vlan 1 0 
+flow 0 port eth 1 etype pppoe vlan 1 0 translate vlan 1 
+flow 0 port eth 1 etype pppoe vlan 1 keep 
+flow 0 port eth 1 etype pppoe vlan 1 translate vlan 1 0 
+flow 0 port eth 1 etype pppoe vlan 1 translate vlan 1 
+flow 0 port eth 1 transparent 
+flow 0 port eth 1 vlan 1 0 keep 
+flow 0 port eth 1 vlan 1 0 translate vlan 1 0 
+flow 0 port eth 1 vlan 1 0 translate vlan 1 
+flow 0 port eth 1 vlan 1 keep 
+flow 0 port eth 1 vlan 1 translate vlan 1 0 
+flow 0 port eth 1 vlan 1 translate vlan 1 
+flow 0 port iphost default vlan 1 0 
+flow 0 port iphost default vlan 1 
+flow 0 port iphost etype arp default vlan 1 0 
+flow 0 port iphost etype arp default vlan 1 
+flow 0 port iphost etype arp transparent 
+flow 0 port iphost etype arp vlan 1 0 keep 
+flow 0 port iphost etype arp vlan 1 0 translate vlan 1 0 
+flow 0 port iphost etype arp vlan 1 0 translate vlan 1 
+flow 0 port iphost etype arp vlan 1 keep 
+flow 0 port iphost etype arp vlan 1 translate vlan 1 0 
+flow 0 port iphost etype arp vlan 1 translate vlan 1 
+flow 0 port iphost etype ipoe default vlan 1 0 
+flow 0 port iphost etype ipoe default vlan 1 
+flow 0 port iphost etype ipoe transparent 
+flow 0 port iphost etype ipoe vlan 1 0 keep 
+flow 0 port iphost etype ipoe vlan 1 0 translate vlan 1 0 
+flow 0 port iphost etype ipoe vlan 1 0 translate vlan 1 
+flow 0 port iphost etype ipoe vlan 1 keep 
+flow 0 port iphost etype ipoe vlan 1 translate vlan 1 0 
+flow 0 port iphost etype ipoe vlan 1 translate vlan 1 
+flow 0 port iphost etype pppoe default vlan 1 0 
+flow 0 port iphost etype pppoe default vlan 1 
+flow 0 port iphost etype pppoe transparent 
+flow 0 port iphost etype pppoe vlan 1 0 keep 
+flow 0 port iphost etype pppoe vlan 1 0 translate vlan 1 0 
+flow 0 port iphost etype pppoe vlan 1 0 translate vlan 1 
+flow 0 port iphost etype pppoe vlan 1 keep 
+flow 0 port iphost etype pppoe vlan 1 translate vlan 1 0 
+flow 0 port iphost etype pppoe vlan 1 translate vlan 1 
+flow 0 port iphost transparent 
+flow 0 port iphost vlan 1 0 keep 
+flow 0 port iphost vlan 1 0 translate vlan 1 0 
+flow 0 port iphost vlan 1 0 translate vlan 1 
+flow 0 port iphost vlan 1 keep 
+flow 0 port iphost vlan 1 translate vlan 1 0 
+flow 0 port iphost vlan 1 translate vlan 1 
+flow 0 port veip default vlan 1 0 
+flow 0 port veip default vlan 1 
+flow 0 port veip etype arp default vlan 1 0 
+flow 0 port veip etype arp default vlan 1 
+flow 0 port veip etype arp transparent 
+flow 0 port veip etype arp vlan 1 0 keep 
+flow 0 port veip etype arp vlan 1 0 translate vlan 1 0 
+flow 0 port veip etype arp vlan 1 0 translate vlan 1 
+flow 0 port veip etype arp vlan 1 keep 
+flow 0 port veip etype arp vlan 1 translate vlan 1 0 
+flow 0 port veip etype arp vlan 1 translate vlan 1 
+flow 0 port veip etype ipoe default vlan 1 0 
+flow 0 port veip etype ipoe default vlan 1 
+flow 0 port veip etype ipoe transparent 
+flow 0 port veip etype ipoe vlan 1 0 keep 
+flow 0 port veip etype ipoe vlan 1 0 translate vlan 1 0 
+flow 0 port veip etype ipoe vlan 1 0 translate vlan 1 
+flow 0 port veip etype ipoe vlan 1 keep 
+flow 0 port veip etype ipoe vlan 1 translate vlan 1 0 
+flow 0 port veip etype ipoe vlan 1 translate vlan 1 
+flow 0 port veip etype pppoe default vlan 1 0 
+flow 0 port veip etype pppoe default vlan 1 
+flow 0 port veip etype pppoe transparent 
+flow 0 port veip etype pppoe vlan 1 0 keep 
+flow 0 port veip etype pppoe vlan 1 0 translate vlan 1 0 
+flow 0 port veip etype pppoe vlan 1 0 translate vlan 1 
+flow 0 port veip etype pppoe vlan 1 keep 
+flow 0 port veip etype pppoe vlan 1 translate vlan 1 0 
+flow 0 port veip etype pppoe vlan 1 translate vlan 1 
+flow 0 port veip transparent 
+flow 0 port veip vlan 1 0 keep 
+flow 0 port veip vlan 1 0 translate vlan 1 0 
+flow 0 port veip vlan 1 0 translate vlan 1 
+flow 0 port veip vlan 1 keep 
+flow 0 port veip vlan 1 translate vlan 1 0 
+flow 0 port veip vlan 1 translate vlan 1 
+gemport 1 tcont 1 ds-traffic-profile 0 us-traffic-profile 0 vlan-profile 0 
+gemport 1 tcont 1 ds-traffic-profile 0 us-traffic-profile 0 vlan-profile name c 
+gemport 1 tcont 1 ds-traffic-profile 0 us-traffic-profile 0 
+gemport 1 tcont 1 ds-traffic-profile 0 us-traffic-profile name c vlan-profile 0 
+gemport 1 tcont 1 ds-traffic-profile 0 us-traffic-profile name c vlan-profile name c 
+gemport 1 tcont 1 ds-traffic-profile 0 us-traffic-profile name c 
+gemport 1 tcont 1 ds-traffic-profile 0 vlan-profile 0 us-traffic-profile 0 
+gemport 1 tcont 1 ds-traffic-profile 0 vlan-profile 0 us-traffic-profile name c 
+gemport 1 tcont 1 ds-traffic-profile 0 vlan-profile 0 
+gemport 1 tcont 1 ds-traffic-profile 0 vlan-profile name c us-traffic-profile 0 
+gemport 1 tcont 1 ds-traffic-profile 0 vlan-profile name c us-traffic-profile name c 
+gemport 1 tcont 1 ds-traffic-profile 0 vlan-profile name c 
+gemport 1 tcont 1 ds-traffic-profile 0 
+gemport 1 tcont 1 ds-traffic-profile name c us-traffic-profile 0 vlan-profile 0 
+gemport 1 tcont 1 ds-traffic-profile name c us-traffic-profile 0 vlan-profile name c 
+gemport 1 tcont 1 ds-traffic-profile name c us-traffic-profile 0 
+gemport 1 tcont 1 ds-traffic-profile name c us-traffic-profile name c vlan-profile 0 
+gemport 1 tcont 1 ds-traffic-profile name c us-traffic-profile name c vlan-profile name c 
+gemport 1 tcont 1 ds-traffic-profile name c us-traffic-profile name c 
+gemport 1 tcont 1 ds-traffic-profile name c vlan-profile 0 us-traffic-profile 0 
+gemport 1 tcont 1 ds-traffic-profile name c vlan-profile 0 us-traffic-profile name c 
+gemport 1 tcont 1 ds-traffic-profile name c vlan-profile 0 
+gemport 1 tcont 1 ds-traffic-profile name c vlan-profile name c us-traffic-profile 0 
+gemport 1 tcont 1 ds-traffic-profile name c vlan-profile name c us-traffic-profile name c 
+gemport 1 tcont 1 ds-traffic-profile name c vlan-profile name c 
+gemport 1 tcont 1 ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 us-traffic-profile 0 vlan-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 us-traffic-profile 0 vlan-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 us-traffic-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 us-traffic-profile name c vlan-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 us-traffic-profile name c vlan-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 us-traffic-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 vlan-profile 0 us-traffic-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 vlan-profile 0 us-traffic-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 vlan-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 vlan-profile name c us-traffic-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 vlan-profile name c us-traffic-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 vlan-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c us-traffic-profile 0 vlan-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c us-traffic-profile 0 vlan-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c us-traffic-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c us-traffic-profile name c vlan-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c us-traffic-profile name c vlan-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c us-traffic-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c vlan-profile 0 us-traffic-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c vlan-profile 0 us-traffic-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c vlan-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c vlan-profile name c us-traffic-profile 0 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c vlan-profile name c us-traffic-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c vlan-profile name c 
+gemport 1 tcont 1 encrypt ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 ds-traffic-profile 0 vlan-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 ds-traffic-profile 0 vlan-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 ds-traffic-profile name c vlan-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 ds-traffic-profile name c vlan-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 vlan-profile 0 ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 vlan-profile 0 ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 vlan-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 vlan-profile name c ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 vlan-profile name c ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 vlan-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile name c ds-traffic-profile 0 vlan-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile name c ds-traffic-profile 0 vlan-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile name c ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile name c ds-traffic-profile name c vlan-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile name c ds-traffic-profile name c vlan-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile name c ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile name c vlan-profile 0 ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile name c vlan-profile 0 ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile name c vlan-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile name c vlan-profile name c ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt us-traffic-profile name c vlan-profile name c ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile name c vlan-profile name c 
+gemport 1 tcont 1 encrypt us-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile 0 ds-traffic-profile 0 us-traffic-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile 0 ds-traffic-profile 0 us-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile 0 ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile 0 ds-traffic-profile name c us-traffic-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile 0 ds-traffic-profile name c us-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile 0 ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile 0 us-traffic-profile 0 ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile 0 us-traffic-profile 0 ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile 0 us-traffic-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile 0 us-traffic-profile name c ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile 0 us-traffic-profile name c ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile 0 us-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile name c ds-traffic-profile 0 us-traffic-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile name c ds-traffic-profile 0 us-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile name c ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile name c ds-traffic-profile name c us-traffic-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile name c ds-traffic-profile name c us-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile name c ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile name c us-traffic-profile 0 ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile name c us-traffic-profile 0 ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile name c us-traffic-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile name c us-traffic-profile name c ds-traffic-profile 0 
+gemport 1 tcont 1 encrypt vlan-profile name c us-traffic-profile name c ds-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile name c us-traffic-profile name c 
+gemport 1 tcont 1 encrypt vlan-profile name c 
+gemport 1 tcont 1 encrypt 
+gemport 1 tcont 1 us-traffic-profile 0 ds-traffic-profile 0 vlan-profile 0 
+gemport 1 tcont 1 us-traffic-profile 0 ds-traffic-profile 0 vlan-profile name c 
+gemport 1 tcont 1 us-traffic-profile 0 ds-traffic-profile 0 
+gemport 1 tcont 1 us-traffic-profile 0 ds-traffic-profile name c vlan-profile 0 
+gemport 1 tcont 1 us-traffic-profile 0 ds-traffic-profile name c vlan-profile name c 
+gemport 1 tcont 1 us-traffic-profile 0 ds-traffic-profile name c 
+gemport 1 tcont 1 us-traffic-profile 0 vlan-profile 0 ds-traffic-profile 0 
+gemport 1 tcont 1 us-traffic-profile 0 vlan-profile 0 ds-traffic-profile name c 
+gemport 1 tcont 1 us-traffic-profile 0 vlan-profile 0 
+gemport 1 tcont 1 us-traffic-profile 0 vlan-profile name c ds-traffic-profile 0 
+gemport 1 tcont 1 us-traffic-profile 0 vlan-profile name c ds-traffic-profile name c 
+gemport 1 tcont 1 us-traffic-profile 0 vlan-profile name c 
+gemport 1 tcont 1 us-traffic-profile 0 
+gemport 1 tcont 1 us-traffic-profile name c ds-traffic-profile 0 vlan-profile 0 
+gemport 1 tcont 1 us-traffic-profile name c ds-traffic-profile 0 vlan-profile name c 
+gemport 1 tcont 1 us-traffic-profile name c ds-traffic-profile 0 
+gemport 1 tcont 1 us-traffic-profile name c ds-traffic-profile name c vlan-profile 0 
+gemport 1 tcont 1 us-traffic-profile name c ds-traffic-profile name c vlan-profile name c 
+gemport 1 tcont 1 us-traffic-profile name c ds-traffic-profile name c 
+gemport 1 tcont 1 us-traffic-profile name c vlan-profile 0 ds-traffic-profile 0 
+gemport 1 tcont 1 us-traffic-profile name c vlan-profile 0 ds-traffic-profile name c 
+gemport 1 tcont 1 us-traffic-profile name c vlan-profile 0 
+gemport 1 tcont 1 us-traffic-profile name c vlan-profile name c ds-traffic-profile 0 
+gemport 1 tcont 1 us-traffic-profile name c vlan-profile name c ds-traffic-profile name c 
+gemport 1 tcont 1 us-traffic-profile name c vlan-profile name c 
+gemport 1 tcont 1 us-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile 0 ds-traffic-profile 0 us-traffic-profile 0 
+gemport 1 tcont 1 vlan-profile 0 ds-traffic-profile 0 us-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile 0 ds-traffic-profile 0 
+gemport 1 tcont 1 vlan-profile 0 ds-traffic-profile name c us-traffic-profile 0 
+gemport 1 tcont 1 vlan-profile 0 ds-traffic-profile name c us-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile 0 ds-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile 0 us-traffic-profile 0 ds-traffic-profile 0 
+gemport 1 tcont 1 vlan-profile 0 us-traffic-profile 0 ds-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile 0 us-traffic-profile 0 
+gemport 1 tcont 1 vlan-profile 0 us-traffic-profile name c ds-traffic-profile 0 
+gemport 1 tcont 1 vlan-profile 0 us-traffic-profile name c ds-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile 0 us-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile 0 
+gemport 1 tcont 1 vlan-profile name c ds-traffic-profile 0 us-traffic-profile 0 
+gemport 1 tcont 1 vlan-profile name c ds-traffic-profile 0 us-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile name c ds-traffic-profile 0 
+gemport 1 tcont 1 vlan-profile name c ds-traffic-profile name c us-traffic-profile 0 
+gemport 1 tcont 1 vlan-profile name c ds-traffic-profile name c us-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile name c ds-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile name c us-traffic-profile 0 ds-traffic-profile 0 
+gemport 1 tcont 1 vlan-profile name c us-traffic-profile 0 ds-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile name c us-traffic-profile 0 
+gemport 1 tcont 1 vlan-profile name c us-traffic-profile name c ds-traffic-profile 0 
+gemport 1 tcont 1 vlan-profile name c us-traffic-profile name c ds-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile name c us-traffic-profile name c 
+gemport 1 tcont 1 vlan-profile name c 
+gemport 1 tcont 1 
+gemport traffic-mode car 
+gemport traffic-mode queue 
+local bandwidth egress port 1 cir 64 cbs 2 pir 64 pbs 2 
+local fec 
+local flow-control port 1 
+local loop-detect 
+local mac-address-table max-mac-count 1 port 1 
+local mac-address-table max-mac-count 1 
+local switch 
+mapping 0 port eth 1 gemport 1 
+mapping 0 port eth 1 priority 0 gemport 1 
+mapping 0 port eth 1 priority 0 vlan 1 gemport 1 
+mapping 0 port eth 1 vlan 1 gemport 1 
+mapping 0 port eth 1 vlan 1 priority 0 gemport 1 
+mapping 0 port iphost gemport 1 
+mapping 0 port iphost priority 0 gemport 1 
+mapping 0 port iphost priority 0 vlan 1 gemport 1 
+mapping 0 port iphost vlan 1 gemport 1 
+mapping 0 port iphost vlan 1 priority 0 gemport 1 
+mapping 0 port veip gemport 1 
+mapping 0 port veip priority 0 gemport 1 
+mapping 0 port veip priority 0 vlan 1 gemport 1 
+mapping 0 port veip vlan 1 gemport 1 
+mapping 0 port veip vlan 1 priority 0 gemport 1 
+mapping 0 priority 0 gemport 1 
+mapping 0 priority 0 port eth 1 gemport 1 
+mapping 0 priority 0 port eth 1 vlan 1 gemport 1 
+mapping 0 priority 0 port iphost gemport 1 
+mapping 0 priority 0 port iphost vlan 1 gemport 1 
+mapping 0 priority 0 port veip gemport 1 
+mapping 0 priority 0 port veip vlan 1 gemport 1 
+mapping 0 priority 0 vlan 1 gemport 1 
+mapping 0 priority 0 vlan 1 port eth 1 gemport 1 
+mapping 0 priority 0 vlan 1 port iphost gemport 1 
+mapping 0 priority 0 vlan 1 port veip gemport 1 
+mapping 0 vlan 1 gemport 1 
+mapping 0 vlan 1 port eth 1 gemport 1 
+mapping 0 vlan 1 port eth 1 priority 0 gemport 1 
+mapping 0 vlan 1 port iphost gemport 1 
+mapping 0 vlan 1 port iphost priority 0 gemport 1 
+mapping 0 vlan 1 port veip gemport 1 
+mapping 0 vlan 1 port veip priority 0 gemport 1 
+mapping 0 vlan 1 priority 0 gemport 1 
+mapping 0 vlan 1 priority 0 port eth 1 gemport 1 
+mapping 0 vlan 1 priority 0 port iphost gemport 1 
+mapping 0 vlan 1 priority 0 port veip gemport 1 
+mapping mode port 
+mapping mode port-priority 
+mapping mode port-vlan 
+mapping mode port-vlan-priority 
+mapping mode priority 
+mapping mode vlan 
+mapping mode vlan-priority 
+multicast ds-tag add 1 0 port 1 
+multicast ds-tag add 1 0 
+multicast ds-tag add 1 port 1 
+multicast ds-tag add 1 
+multicast ds-tag remove port 1 
+multicast ds-tag remove 
+multicast ds-tag translate 1 0 port 1 
+multicast ds-tag translate 1 0 
+multicast ds-tag translate 1 port 1 
+multicast ds-tag translate 1 
+multicast fast-leave disable port 1 
+multicast fast-leave disable 
+multicast group-limit 1 port 1 
+multicast group-limit 1 
+multicast hgu-eport 
+multicast mode igmp-snooping port 1 
+multicast mode igmp-snooping 
+multicast mode olt-control port 1 
+multicast mode olt-control 
+multicast profile refer 0 
+multicast profile refer name c 
+multicast us-tag add 1 0 port 1 
+multicast us-tag add 1 0 
+multicast us-tag add 1 port 1 
+multicast us-tag add 1 
+multicast us-tag translate 1 0 port 1 
+multicast us-tag translate 1 0 
+multicast us-tag translate 1 port 1 
+multicast us-tag translate 1 
+no alarm profile refer 
+no flow 0 
+no gemport 1 
+no local bandwidth egress port 1 
+no local fec 
+no local flow-control port 1 
+no local loop-detect 
+no local mac-address-table max-mac-count port 1 
+no local mac-address-table max-mac-count 
+no local switch 
+no mapping 0 
+no multicast ds-tag port 1 
+no multicast ds-tag 
+no multicast fast-leave disable port 1 
+no multicast fast-leave disable 
+no multicast group-limit port 1 
+no multicast group-limit 
+no multicast hgu-eport 
+no multicast mode port 1 
+no multicast mode 
+no multicast profile refer 
+no multicast us-tag port 1 
+no multicast us-tag 
+no tcont 1 
+tcont 1 profile dba 0 
+tcont 1 profile dba name c 

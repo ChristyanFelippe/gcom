@@ -1,0 +1,32 @@
+clear erps instance 0 statistics 
+clear erps statistics 
+clear startup-config 
+cls 
+generate diag-file 
+help 
+ping -i 1 -l 0 -n 1 -s 1.1.1.1 -t 1 1.1.1.1 
+ping -i 1 -l 0 -n 1 -s 1.1.1.1 1.1.1.1 
+ping -i 1 -l 0 -n 1 1.1.1.1 
+ping -i 1 -l 0 1.1.1.1 
+ping -i 1 1.1.1.1 
+ping 1.1.1.1 
+ping6 -a A:A::A:A -c 1 -h 1 -s 20 -t -w 1 A:A::A:A 
+ping6 -a A:A::A:A -c 1 -h 1 -s 20 -t A:A::A:A 
+ping6 -a A:A::A:A -c 1 -h 1 -s 20 A:A::A:A 
+ping6 -a A:A::A:A -c 1 -h 1 A:A::A:A 
+ping6 -a A:A::A:A -c 1 A:A::A:A 
+ping6 -a A:A::A:A A:A::A:A 
+ping6 A:A::A:A 
+quit 
+tracert -c -f 1 -h 1 -w 10 1.1.1.1 
+tracert -c -f 1 -h 1 1.1.1.1 
+tracert -c -f 1 1.1.1.1 
+tracert -c 1.1.1.1 
+tracert -s 1.1.1.1 1.1.1.1 
+tracert -u -p 1 1.1.1.1 
+tracert -u 1.1.1.1 
+tracert 1.1.1.1 
+tracert6 -c 1 -h 1 -w 1 A:A::A:A 
+tracert6 -c 1 -h 1 A:A::A:A 
+tracert6 -c 1 A:A::A:A 
+tracert6 A:A::A:A 

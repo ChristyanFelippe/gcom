@@ -1,0 +1,250 @@
+active 
+aim 0/1/1 name c 
+aim 0/1/1 
+aim name c 
+alarm profile refer 0 
+alarm profile refer name c 
+description 0/1/1 
+exit 
+gemport 1 ds-traffic-profile 0 us-traffic-profile 0 vlan-profile 0 
+gemport 1 ds-traffic-profile 0 us-traffic-profile 0 vlan-profile name c 
+gemport 1 ds-traffic-profile 0 us-traffic-profile 0 
+gemport 1 ds-traffic-profile 0 us-traffic-profile name c vlan-profile 0 
+gemport 1 ds-traffic-profile 0 us-traffic-profile name c vlan-profile name c 
+gemport 1 ds-traffic-profile 0 us-traffic-profile name c 
+gemport 1 ds-traffic-profile 0 vlan-profile 0 us-traffic-profile 0 
+gemport 1 ds-traffic-profile 0 vlan-profile 0 us-traffic-profile name c 
+gemport 1 ds-traffic-profile 0 vlan-profile 0 
+gemport 1 ds-traffic-profile 0 vlan-profile name c us-traffic-profile 0 
+gemport 1 ds-traffic-profile 0 vlan-profile name c us-traffic-profile name c 
+gemport 1 ds-traffic-profile 0 vlan-profile name c 
+gemport 1 ds-traffic-profile 0 
+gemport 1 ds-traffic-profile name c us-traffic-profile 0 vlan-profile 0 
+gemport 1 ds-traffic-profile name c us-traffic-profile 0 vlan-profile name c 
+gemport 1 ds-traffic-profile name c us-traffic-profile 0 
+gemport 1 ds-traffic-profile name c us-traffic-profile name c vlan-profile 0 
+gemport 1 ds-traffic-profile name c us-traffic-profile name c vlan-profile name c 
+gemport 1 ds-traffic-profile name c us-traffic-profile name c 
+gemport 1 ds-traffic-profile name c vlan-profile 0 us-traffic-profile 0 
+gemport 1 ds-traffic-profile name c vlan-profile 0 us-traffic-profile name c 
+gemport 1 ds-traffic-profile name c vlan-profile 0 
+gemport 1 ds-traffic-profile name c vlan-profile name c us-traffic-profile 0 
+gemport 1 ds-traffic-profile name c vlan-profile name c us-traffic-profile name c 
+gemport 1 ds-traffic-profile name c vlan-profile name c 
+gemport 1 ds-traffic-profile name c 
+gemport 1 us-traffic-profile 0 ds-traffic-profile 0 vlan-profile 0 
+gemport 1 us-traffic-profile 0 ds-traffic-profile 0 vlan-profile name c 
+gemport 1 us-traffic-profile 0 ds-traffic-profile 0 
+gemport 1 us-traffic-profile 0 ds-traffic-profile name c vlan-profile 0 
+gemport 1 us-traffic-profile 0 ds-traffic-profile name c vlan-profile name c 
+gemport 1 us-traffic-profile 0 ds-traffic-profile name c 
+gemport 1 us-traffic-profile 0 vlan-profile 0 ds-traffic-profile 0 
+gemport 1 us-traffic-profile 0 vlan-profile 0 ds-traffic-profile name c 
+gemport 1 us-traffic-profile 0 vlan-profile 0 
+gemport 1 us-traffic-profile 0 vlan-profile name c ds-traffic-profile 0 
+gemport 1 us-traffic-profile 0 vlan-profile name c ds-traffic-profile name c 
+gemport 1 us-traffic-profile 0 vlan-profile name c 
+gemport 1 us-traffic-profile 0 
+gemport 1 us-traffic-profile name c ds-traffic-profile 0 vlan-profile 0 
+gemport 1 us-traffic-profile name c ds-traffic-profile 0 vlan-profile name c 
+gemport 1 us-traffic-profile name c ds-traffic-profile 0 
+gemport 1 us-traffic-profile name c ds-traffic-profile name c vlan-profile 0 
+gemport 1 us-traffic-profile name c ds-traffic-profile name c vlan-profile name c 
+gemport 1 us-traffic-profile name c ds-traffic-profile name c 
+gemport 1 us-traffic-profile name c vlan-profile 0 ds-traffic-profile 0 
+gemport 1 us-traffic-profile name c vlan-profile 0 ds-traffic-profile name c 
+gemport 1 us-traffic-profile name c vlan-profile 0 
+gemport 1 us-traffic-profile name c vlan-profile name c ds-traffic-profile 0 
+gemport 1 us-traffic-profile name c vlan-profile name c ds-traffic-profile name c 
+gemport 1 us-traffic-profile name c vlan-profile name c 
+gemport 1 us-traffic-profile name c 
+gemport 1 vlan-profile 0 ds-traffic-profile 0 us-traffic-profile 0 
+gemport 1 vlan-profile 0 ds-traffic-profile 0 us-traffic-profile name c 
+gemport 1 vlan-profile 0 ds-traffic-profile 0 
+gemport 1 vlan-profile 0 ds-traffic-profile name c us-traffic-profile 0 
+gemport 1 vlan-profile 0 ds-traffic-profile name c us-traffic-profile name c 
+gemport 1 vlan-profile 0 ds-traffic-profile name c 
+gemport 1 vlan-profile 0 us-traffic-profile 0 ds-traffic-profile 0 
+gemport 1 vlan-profile 0 us-traffic-profile 0 ds-traffic-profile name c 
+gemport 1 vlan-profile 0 us-traffic-profile 0 
+gemport 1 vlan-profile 0 us-traffic-profile name c ds-traffic-profile 0 
+gemport 1 vlan-profile 0 us-traffic-profile name c ds-traffic-profile name c 
+gemport 1 vlan-profile 0 us-traffic-profile name c 
+gemport 1 vlan-profile 0 
+gemport 1 vlan-profile name c ds-traffic-profile 0 us-traffic-profile 0 
+gemport 1 vlan-profile name c ds-traffic-profile 0 us-traffic-profile name c 
+gemport 1 vlan-profile name c ds-traffic-profile 0 
+gemport 1 vlan-profile name c ds-traffic-profile name c us-traffic-profile 0 
+gemport 1 vlan-profile name c ds-traffic-profile name c us-traffic-profile name c 
+gemport 1 vlan-profile name c ds-traffic-profile name c 
+gemport 1 vlan-profile name c us-traffic-profile 0 ds-traffic-profile 0 
+gemport 1 vlan-profile name c us-traffic-profile 0 ds-traffic-profile name c 
+gemport 1 vlan-profile name c us-traffic-profile 0 
+gemport 1 vlan-profile name c us-traffic-profile name c ds-traffic-profile 0 
+gemport 1 vlan-profile name c us-traffic-profile name c ds-traffic-profile name c 
+gemport 1 vlan-profile name c us-traffic-profile name c 
+gemport 1 vlan-profile name c 
+ip-config mode dhcp vlan 1 0 host 2 
+ip-config mode dhcp vlan 1 host 2 
+ip-config mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 primary-dns 1.1.1.1 secondary-dns 1.1.1.1 vlan 1 0 host 2 
+ip-config mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 primary-dns 1.1.1.1 secondary-dns 1.1.1.1 vlan 1 host 2 
+ip-config mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 primary-dns 1.1.1.1 vlan 1 0 host 2 
+ip-config mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 primary-dns 1.1.1.1 vlan 1 host 2 
+ip-config mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 secondary-dns 1.1.1.1 vlan 1 0 host 2 
+ip-config mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 secondary-dns 1.1.1.1 vlan 1 host 2 
+ip-config mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 vlan 1 0 host 2 
+ip-config mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 vlan 1 host 2 
+local catv-agc mode optical-based decrease 1 catv-port 1 
+local catv-agc mode optical-based increase 0 catv-port 1 
+local catv-agc mode rf-based decrease 1 catv-port 1 
+local catv-agc mode rf-based increase 0 catv-port 1 
+local neg-mode speed 10 duplex auto port 1 
+local neg-mode speed 10 duplex full port 1 
+local neg-mode speed 10 duplex half port 1 
+local neg-mode speed 100 duplex auto port 1 
+local neg-mode speed 100 duplex full port 1 
+local neg-mode speed 100 duplex half port 1 
+local neg-mode speed 1000 duplex full port 1 
+local neg-mode speed auto duplex auto port 1 
+local neg-mode speed auto duplex full port 1 
+local neg-mode speed auto duplex half port 1 
+local ranging-balance decrease 1 
+local ranging-balance increase 1 
+local shutdown catv-port 1 
+local shutdown port 1 
+local wan-config 1 dhcp nat disable service-type internet connection-type bridge vlan 1 
+local wan-config 1 dhcp nat disable service-type internet connection-type route vlan 1 
+local wan-config 1 dhcp nat disable service-type internet-tr069 connection-type bridge vlan 1 
+local wan-config 1 dhcp nat disable service-type internet-tr069 connection-type route vlan 1 
+local wan-config 1 dhcp nat disable service-type internet-voip connection-type bridge vlan 1 
+local wan-config 1 dhcp nat disable service-type internet-voip connection-type route vlan 1 
+local wan-config 1 dhcp nat disable service-type other connection-type bridge vlan 1 
+local wan-config 1 dhcp nat disable service-type other connection-type route vlan 1 
+local wan-config 1 dhcp nat disable service-type tr069 connection-type bridge vlan 1 
+local wan-config 1 dhcp nat disable service-type tr069 connection-type route vlan 1 
+local wan-config 1 dhcp nat disable service-type voip connection-type bridge vlan 1 
+local wan-config 1 dhcp nat disable service-type voip connection-type route vlan 1 
+local wan-config 1 dhcp nat enable service-type internet connection-type bridge vlan 1 
+local wan-config 1 dhcp nat enable service-type internet connection-type route vlan 1 
+local wan-config 1 dhcp nat enable service-type internet-tr069 connection-type bridge vlan 1 
+local wan-config 1 dhcp nat enable service-type internet-tr069 connection-type route vlan 1 
+local wan-config 1 dhcp nat enable service-type internet-voip connection-type bridge vlan 1 
+local wan-config 1 dhcp nat enable service-type internet-voip connection-type route vlan 1 
+local wan-config 1 dhcp nat enable service-type other connection-type bridge vlan 1 
+local wan-config 1 dhcp nat enable service-type other connection-type route vlan 1 
+local wan-config 1 dhcp nat enable service-type tr069 connection-type bridge vlan 1 
+local wan-config 1 dhcp nat enable service-type tr069 connection-type route vlan 1 
+local wan-config 1 dhcp nat enable service-type voip connection-type bridge vlan 1 
+local wan-config 1 dhcp nat enable service-type voip connection-type route vlan 1 
+local wan-config 1 pppoe username c password c nat disable service-type internet connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c nat disable service-type internet connection-type route vlan 1 
+local wan-config 1 pppoe username c password c nat disable service-type internet-tr069 connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c nat disable service-type internet-tr069 connection-type route vlan 1 
+local wan-config 1 pppoe username c password c nat disable service-type internet-voip connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c nat disable service-type internet-voip connection-type route vlan 1 
+local wan-config 1 pppoe username c password c nat disable service-type other connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c nat disable service-type other connection-type route vlan 1 
+local wan-config 1 pppoe username c password c nat disable service-type tr069 connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c nat disable service-type tr069 connection-type route vlan 1 
+local wan-config 1 pppoe username c password c nat disable service-type voip connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c nat disable service-type voip connection-type route vlan 1 
+local wan-config 1 pppoe username c password c nat enable service-type internet connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c nat enable service-type internet connection-type route vlan 1 
+local wan-config 1 pppoe username c password c nat enable service-type internet-tr069 connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c nat enable service-type internet-tr069 connection-type route vlan 1 
+local wan-config 1 pppoe username c password c nat enable service-type internet-voip connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c nat enable service-type internet-voip connection-type route vlan 1 
+local wan-config 1 pppoe username c password c nat enable service-type other connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c nat enable service-type other connection-type route vlan 1 
+local wan-config 1 pppoe username c password c nat enable service-type tr069 connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c nat enable service-type tr069 connection-type route vlan 1 
+local wan-config 1 pppoe username c password c nat enable service-type voip connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c nat enable service-type voip connection-type route vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat disable service-type internet connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat disable service-type internet connection-type route vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat disable service-type internet-tr069 connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat disable service-type internet-tr069 connection-type route vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat disable service-type internet-voip connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat disable service-type internet-voip connection-type route vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat disable service-type other connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat disable service-type other connection-type route vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat disable service-type tr069 connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat disable service-type tr069 connection-type route vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat disable service-type voip connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat disable service-type voip connection-type route vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat enable service-type internet connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat enable service-type internet connection-type route vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat enable service-type internet-tr069 connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat enable service-type internet-tr069 connection-type route vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat enable service-type internet-voip connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat enable service-type internet-voip connection-type route vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat enable service-type other connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat enable service-type other connection-type route vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat enable service-type tr069 connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat enable service-type tr069 connection-type route vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat enable service-type voip connection-type bridge vlan 1 
+local wan-config 1 pppoe username c password c service-name c nat enable service-type voip connection-type route vlan 1 
+local wlan 0 ssid c key cccccccc wifi-profile 0 
+local wlan 0 ssid c key cccccccc wifi-profile name c 
+multicast profile refer 0 
+multicast profile refer name c 
+no alarm profile refer 
+no description 
+no gemport 1 
+no ip-config 
+no local catv-agc catv-port 1 
+no local neg-mode speed port 1 
+no local ranging-balance 
+no local shutdown catv-port 1 
+no local shutdown port 1 
+no local wan-config 1 
+no local wlan 0 
+no multicast profile refer 
+no poe max-power port 1 
+no poe priority port 1 
+no poe shutdown port 1 
+no sip agent 
+no sip digitmap dial-plan-id 1 
+no sip user 1 
+no sip user mode 
+no tcont 1 
+poe max-power 1000 port 1 
+poe priority critical port 1 
+poe priority high port 1 
+poe priority low port 1 
+poe shutdown port 1 
+sip agent proxy-server c outbound-proxy c registrar-server c signal-port 1 
+sip agent proxy-server c outbound-proxy c registrar-server c 
+sip agent proxy-server c outbound-proxy c signal-port 1 registrar-server c 
+sip agent proxy-server c outbound-proxy c signal-port 1 
+sip agent proxy-server c outbound-proxy c 
+sip agent proxy-server c registrar-server c outbound-proxy c signal-port 1 
+sip agent proxy-server c registrar-server c outbound-proxy c 
+sip agent proxy-server c registrar-server c signal-port 1 outbound-proxy c 
+sip agent proxy-server c registrar-server c signal-port 1 
+sip agent proxy-server c registrar-server c 
+sip agent proxy-server c signal-port 1 outbound-proxy c registrar-server c 
+sip agent proxy-server c signal-port 1 outbound-proxy c 
+sip agent proxy-server c signal-port 1 registrar-server c outbound-proxy c 
+sip agent proxy-server c signal-port 1 registrar-server c 
+sip agent proxy-server c signal-port 1 
+sip agent proxy-server c 
+sip digitmap dial-plan-id 1 dial-plan-token c 
+sip user 1 description c name c password c telno c 
+sip user 1 description c name c telno c 
+sip user 1 description c telno c 
+sip user 1 name c password c telno c 
+sip user 1 name c telno c 
+sip user 1 telno c 
+sip user mode dhcp vlan 1 0 host 1 
+sip user mode dhcp vlan 1 host 1 
+sip user mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 primary-dns 1.1.1.1 secondary-dns 1.1.1.1 vlan 1 0 host 1 
+sip user mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 primary-dns 1.1.1.1 secondary-dns 1.1.1.1 vlan 1 host 1 
+sip user mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 primary-dns 1.1.1.1 vlan 1 0 host 1 
+sip user mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 primary-dns 1.1.1.1 vlan 1 host 1 
+sip user mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 secondary-dns 1.1.1.1 vlan 1 0 host 1 
+sip user mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 secondary-dns 1.1.1.1 vlan 1 host 1 
+sip user mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 vlan 1 0 host 1 
+sip user mode static ip-address 1.1.1.1 mask 1.1.1.1 gateway 1.1.1.1 vlan 1 host 1 
+tcont 1 profile dba 0 
+tcont 1 profile dba name c 

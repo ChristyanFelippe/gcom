@@ -1,0 +1,84 @@
+clear erps instance 0 statistics 
+clear erps statistics 
+clear onu-auto-image cccc 
+clear startup-config 
+cls 
+epon-info-display disable 
+epon-info-display enable 
+help 
+load application ftp inet 1.1.1.1 c c c 
+load application ftp inet6 A:A::A:A c c c 
+load application tftp inet 1.1.1.1 c 
+load application tftp inet6 A:A::A:A c 
+load application xmodem 
+load configuration ftp inet 1.1.1.1 c c c 
+load configuration ftp inet6 A:A::A:A c c c 
+load configuration tftp inet 1.1.1.1 c 
+load configuration tftp inet6 A:A::A:A c 
+load configuration xmodem 
+load keyfile private ftp inet 1.1.1.1 c c c 
+load keyfile private ftp inet6 A:A::A:A c c c 
+load keyfile private tftp inet 1.1.1.1 c 
+load keyfile private tftp inet6 A:A::A:A c 
+load keyfile public ftp inet 1.1.1.1 c c c 
+load keyfile public ftp inet6 A:A::A:A c c c 
+load keyfile public tftp inet 1.1.1.1 c 
+load keyfile public tftp inet6 A:A::A:A c 
+load onu-auto-image cccc match c ftp inet 1.1.1.1 c c c 
+load onu-auto-image cccc match c ftp inet6 A:A::A:A c c c 
+load onu-auto-image cccc match c tftp inet 1.1.1.1 c 
+load onu-auto-image cccc match c tftp inet6 A:A::A:A c 
+load onu-auto-image cccc mismatch c ftp inet 1.1.1.1 c c c 
+load onu-auto-image cccc mismatch c ftp inet6 A:A::A:A c c c 
+load onu-auto-image cccc mismatch c tftp inet 1.1.1.1 c 
+load onu-auto-image cccc mismatch c tftp inet6 A:A::A:A c 
+load onu-image ftp inet 1.1.1.1 c c c 
+load onu-image ftp inet6 A:A::A:A c c c 
+load onu-image tftp inet 1.1.1.1 c 
+load onu-image tftp inet6 A:A::A:A c 
+load whole-bootrom ftp inet 1.1.1.1 c c c 
+load whole-bootrom ftp inet6 A:A::A:A c c c 
+load whole-bootrom tftp inet 1.1.1.1 c 
+load whole-bootrom tftp inet6 A:A::A:A c 
+load whole-bootrom xmodem 
+onu-auth-vendor-mac cccccccc 
+onu-auth-vendor-mac del cccccccc 
+onu-upgrade-batch model ccc onu-image c filter-sw cccc slot-list c pon-list 0/1 
+onu-upgrade-batch model ccc onu-image c filter-sw cccc slot-list c 
+onu-upgrade-batch model ccc onu-image c filter-sw cccc 
+onu-upgrade-batch model ccc onu-image c slot-list c pon-list 0/1 
+onu-upgrade-batch model ccc onu-image c slot-list c 
+onu-upgrade-batch model ccc onu-image c sw cccc slot-list c pon-list 0/1 
+onu-upgrade-batch model ccc onu-image c sw cccc slot-list c 
+onu-upgrade-batch model ccc onu-image c sw cccc 
+onu-upgrade-batch model ccc onu-image c 
+ping -i 1 -l 0 -n 1 -s 1.1.1.1 -t 1 1.1.1.1 
+ping -i 1 -l 0 -n 1 -s 1.1.1.1 1.1.1.1 
+ping -i 1 -l 0 -n 1 1.1.1.1 
+ping -i 1 -l 0 1.1.1.1 
+ping -i 1 1.1.1.1 
+ping 1.1.1.1 
+ping6 -a A:A::A:A -c 1 -h 1 -s 20 -t -w 1 A:A::A:A 
+ping6 -a A:A::A:A -c 1 -h 1 -s 20 -t A:A::A:A 
+ping6 -a A:A::A:A -c 1 -h 1 -s 20 A:A::A:A 
+ping6 -a A:A::A:A -c 1 -h 1 A:A::A:A 
+ping6 -a A:A::A:A -c 1 A:A::A:A 
+ping6 -a A:A::A:A A:A::A:A 
+ping6 A:A::A:A 
+quit 
+test onu-cfg-tx cycle-num 1 
+test onu-cfg-tx port 1 cycle-num 1 
+test onu-cfg-tx port 1 
+test onu-cfg-tx 
+tracert -c -f 1 -h 1 -w 10 1.1.1.1 
+tracert -c -f 1 -h 1 1.1.1.1 
+tracert -c -f 1 1.1.1.1 
+tracert -c 1.1.1.1 
+tracert -s 1.1.1.1 1.1.1.1 
+tracert -u -p 1 1.1.1.1 
+tracert -u 1.1.1.1 
+tracert 1.1.1.1 
+tracert6 -c 1 -h 1 -w 1 A:A::A:A 
+tracert6 -c 1 -h 1 A:A::A:A 
+tracert6 -c 1 A:A::A:A 
+tracert6 A:A::A:A 

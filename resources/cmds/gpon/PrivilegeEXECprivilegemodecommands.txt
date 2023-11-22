@@ -1,0 +1,100 @@
+buildrun mode continue 
+buildrun mode stop 
+clear erps instance 0 statistics 
+clear erps statistics 
+clear startup-config 
+clock set 11:11:11 2000/11/11 
+configure terminal 
+copy nm-interface-config startup-config 1 1.1.1.1 1.1.1.1 1.1.1.1 
+copy nm-interface-config startup-config 1 
+copy nm-interface-config startup-config 
+copy running-config startup-config 
+copy startup-config running-config 
+crypto key generate rsa 
+crypto key refresh 
+crypto key zeroize rsa 
+exit 
+license install key cccccccccccccccccccccccccc 
+load application ftp inet 1.1.1.1 c c c 
+load application ftp inet6 A:A::A:A c c c 
+load application tftp inet 1.1.1.1 c 
+load application tftp inet6 A:A::A:A c 
+load application xmodem 
+load configuration ftp inet 1.1.1.1 c c c 
+load configuration ftp inet6 A:A::A:A c c c 
+load configuration tftp inet 1.1.1.1 c 
+load configuration tftp inet6 A:A::A:A c 
+load configuration xmodem 
+load edfa ftp inet 1.1.1.1 c c c 
+load edfa ftp inet6 A:A::A:A c c c 
+load edfa tftp inet 1.1.1.1 c 
+load edfa tftp inet6 A:A::A:A c 
+load epld ftp inet 1.1.1.1 c c c 
+load epld ftp inet6 A:A::A:A c c c 
+load keyfile private ftp inet 1.1.1.1 c c c 
+load keyfile private ftp inet6 A:A::A:A c c c 
+load keyfile private tftp inet 1.1.1.1 c 
+load keyfile private tftp inet6 A:A::A:A c 
+load keyfile public ftp inet 1.1.1.1 c c c 
+load keyfile public ftp inet6 A:A::A:A c c c 
+load keyfile public tftp inet 1.1.1.1 c 
+load keyfile public tftp inet6 A:A::A:A c 
+load ont-image ftp inet 1.1.1.1 c c c 
+load ont-image ftp inet6 A:A::A:A c c c 
+load ont-image tftp inet 1.1.1.1 c 
+load ont-image tftp inet6 A:A::A:A c 
+load whole-bootrom ftp inet 1.1.1.1 c c c 
+load whole-bootrom ftp inet6 A:A::A:A c c c 
+load whole-bootrom tftp inet 1.1.1.1 c 
+load whole-bootrom tftp inet6 A:A::A:A c 
+load whole-bootrom xmodem 
+no terminal monitor 
+no timeout 
+no upload automatically configuration 
+reboot 
+stop c 
+stop telnet client 0 
+stop telnet client all 
+stop vty c 
+stop vty all 
+telnet 1.1.1.1 /localecho 
+telnet 1.1.1.1 1 /localecho 
+telnet 1.1.1.1 1 
+telnet 1.1.1.1 
+telnet6 A:A::A:A /localecho 
+telnet6 A:A::A:A 1 /localecho 
+telnet6 A:A::A:A 1 
+telnet6 A:A::A:A 
+terminal language chinese 
+terminal language english 
+terminal monitor 
+timeout 1 
+timeout 
+upload application ftp inet 1.1.1.1 c c c 
+upload application ftp inet6 A:A::A:A c c c 
+upload application tftp inet 1.1.1.1 c 
+upload application tftp inet6 A:A::A:A c 
+upload automatically configuration ftp inet 1.1.1.1 c c c per hours 0 minutes 5 
+upload automatically configuration ftp inet6 A:A::A:A c c c per hours 0 minutes 5 
+upload automatically configuration tftp inet 1.1.1.1 c per hours 0 minutes 5 
+upload automatically configuration tftp inet6 A:A::A:A c per hours 0 minutes 5 
+upload configuration ftp inet 1.1.1.1 c c c 
+upload configuration ftp inet6 A:A::A:A c c c 
+upload configuration tftp inet 1.1.1.1 c 
+upload configuration tftp inet6 A:A::A:A c 
+upload diag-file ftp inet 1.1.1.1 c c c 
+upload diag-file ftp inet6 A:A::A:A c c c 
+upload diag-file tftp inet 1.1.1.1 c 
+upload diag-file tftp inet6 A:A::A:A c 
+upload keyfile private ftp inet 1.1.1.1 c c c 
+upload keyfile private ftp inet6 A:A::A:A c c c 
+upload keyfile private tftp inet 1.1.1.1 c 
+upload keyfile private tftp inet6 A:A::A:A c 
+upload keyfile public ftp inet 1.1.1.1 c c c 
+upload keyfile public ftp inet6 A:A::A:A c c c 
+upload keyfile public tftp inet 1.1.1.1 c 
+upload keyfile public tftp inet6 A:A::A:A c 
+upload logging ftp inet 1.1.1.1 c c c 
+upload logging ftp inet6 A:A::A:A c c c 
+upload logging tftp inet 1.1.1.1 c 
+upload logging tftp inet6 A:A::A:A c 

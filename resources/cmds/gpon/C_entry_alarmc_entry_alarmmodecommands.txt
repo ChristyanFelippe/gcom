@@ -1,0 +1,11 @@
+active 
+aim 0 name c 
+aim 0 
+aim name c 
+exit 
+no optical power rx threshold 
+no optical power tx threshold 
+optical power rx threshold high -10 low -10 
+optical power rx threshold high -10 
+optical power rx threshold low -10 high -10 
+optical power rx threshold low -10 

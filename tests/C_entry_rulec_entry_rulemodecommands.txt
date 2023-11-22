@@ -1,0 +1,131 @@
+active 
+aim 0/1/1 name c 
+aim 0/1/1 
+aim name c 
+exit 
+permit loid c line c default line 0 once-on aging-time 1 
+permit loid c line c default line 0 once-on no-aging 
+permit loid c line c default line 0 
+permit loid c line c default line name c once-on aging-time 1 
+permit loid c line c default line name c once-on no-aging 
+permit loid c line c default line name c 
+permit loid c line c once-on aging-time 1 
+permit loid c line c once-on no-aging 
+permit loid c line c 
+permit loid c line name c default line 0 once-on aging-time 1 
+permit loid c line name c default line 0 once-on no-aging 
+permit loid c line name c default line 0 
+permit loid c line name c default line name c once-on aging-time 1 
+permit loid c line name c default line name c once-on no-aging 
+permit loid c line name c default line name c 
+permit loid c line name c once-on aging-time 1 
+permit loid c line name c once-on no-aging 
+permit loid c line name c 
+permit loid-lopw c c line c default line 0 once-on aging-time 1 
+permit loid-lopw c c line c default line 0 once-on no-aging 
+permit loid-lopw c c line c default line 0 
+permit loid-lopw c c line c default line name c once-on aging-time 1 
+permit loid-lopw c c line c default line name c once-on no-aging 
+permit loid-lopw c c line c default line name c 
+permit loid-lopw c c line c once-on aging-time 1 
+permit loid-lopw c c line c once-on no-aging 
+permit loid-lopw c c line c 
+permit loid-lopw c c line name c default line 0 once-on aging-time 1 
+permit loid-lopw c c line name c default line 0 once-on no-aging 
+permit loid-lopw c c line name c default line 0 
+permit loid-lopw c c line name c default line name c once-on aging-time 1 
+permit loid-lopw c c line name c default line name c once-on no-aging 
+permit loid-lopw c c line name c default line name c 
+permit loid-lopw c c line name c once-on aging-time 1 
+permit loid-lopw c c line name c once-on no-aging 
+permit loid-lopw c c line name c 
+permit lopw c line c default line 0 once-on aging-time 1 
+permit lopw c line c default line 0 once-on no-aging 
+permit lopw c line c default line 0 
+permit lopw c line c default line name c once-on aging-time 1 
+permit lopw c line c default line name c once-on no-aging 
+permit lopw c line c default line name c 
+permit lopw c line c once-on aging-time 1 
+permit lopw c line c once-on no-aging 
+permit lopw c line c 
+permit lopw c line name c default line 0 once-on aging-time 1 
+permit lopw c line name c default line 0 once-on no-aging 
+permit lopw c line name c default line 0 
+permit lopw c line name c default line name c once-on aging-time 1 
+permit lopw c line name c default line name c once-on no-aging 
+permit lopw c line name c default line name c 
+permit lopw c line name c once-on aging-time 1 
+permit lopw c line name c once-on no-aging 
+permit lopw c line name c 
+permit pw hex 0000000000000000 line c default line 0 once-on aging-time 1 
+permit pw hex 0000000000000000 line c default line 0 once-on no-aging 
+permit pw hex 0000000000000000 line c default line 0 
+permit pw hex 0000000000000000 line c default line name c once-on aging-time 1 
+permit pw hex 0000000000000000 line c default line name c once-on no-aging 
+permit pw hex 0000000000000000 line c default line name c 
+permit pw hex 0000000000000000 line c once-on aging-time 1 
+permit pw hex 0000000000000000 line c once-on no-aging 
+permit pw hex 0000000000000000 line c 
+permit pw hex 0000000000000000 line name c default line 0 once-on aging-time 1 
+permit pw hex 0000000000000000 line name c default line 0 once-on no-aging 
+permit pw hex 0000000000000000 line name c default line 0 
+permit pw hex 0000000000000000 line name c default line name c once-on aging-time 1 
+permit pw hex 0000000000000000 line name c default line name c once-on no-aging 
+permit pw hex 0000000000000000 line name c default line name c 
+permit pw hex 0000000000000000 line name c once-on aging-time 1 
+permit pw hex 0000000000000000 line name c once-on no-aging 
+permit pw hex 0000000000000000 line name c 
+permit pw string c line c default line 0 once-on aging-time 1 
+permit pw string c line c default line 0 once-on no-aging 
+permit pw string c line c default line 0 
+permit pw string c line c default line name c once-on aging-time 1 
+permit pw string c line c default line name c once-on no-aging 
+permit pw string c line c default line name c 
+permit pw string c line c once-on aging-time 1 
+permit pw string c line c once-on no-aging 
+permit pw string c line c 
+permit pw string c line name c default line 0 once-on aging-time 1 
+permit pw string c line name c default line 0 once-on no-aging 
+permit pw string c line name c default line 0 
+permit pw string c line name c default line name c once-on aging-time 1 
+permit pw string c line name c default line name c once-on no-aging 
+permit pw string c line name c default line name c 
+permit pw string c line name c once-on aging-time 1 
+permit pw string c line name c once-on no-aging 
+permit pw string c line name c 
+permit sn hex 0000000000000000 line c default line 0 
+permit sn hex 0000000000000000 line c default line name c 
+permit sn hex 0000000000000000 line c 
+permit sn hex 0000000000000000 line name c default line 0 
+permit sn hex 0000000000000000 line name c default line name c 
+permit sn hex 0000000000000000 line name c 
+permit sn string-hex AAAA-AAAAAAAA line c default line 0 
+permit sn string-hex AAAA-AAAAAAAA line c default line name c 
+permit sn string-hex AAAA-AAAAAAAA line c 
+permit sn string-hex AAAA-AAAAAAAA line name c default line 0 
+permit sn string-hex AAAA-AAAAAAAA line name c default line name c 
+permit sn string-hex AAAA-AAAAAAAA line name c 
+permit sn-pw hex 0000000000000000 hex 0000000000000000 line c default line 0 
+permit sn-pw hex 0000000000000000 hex 0000000000000000 line c default line name c 
+permit sn-pw hex 0000000000000000 hex 0000000000000000 line c 
+permit sn-pw hex 0000000000000000 hex 0000000000000000 line name c default line 0 
+permit sn-pw hex 0000000000000000 hex 0000000000000000 line name c default line name c 
+permit sn-pw hex 0000000000000000 hex 0000000000000000 line name c 
+permit sn-pw hex 0000000000000000 string c line c default line 0 
+permit sn-pw hex 0000000000000000 string c line c default line name c 
+permit sn-pw hex 0000000000000000 string c line c 
+permit sn-pw hex 0000000000000000 string c line name c default line 0 
+permit sn-pw hex 0000000000000000 string c line name c default line name c 
+permit sn-pw hex 0000000000000000 string c line name c 
+permit sn-pw string-hex AAAA-AAAAAAAA hex 0000000000000000 line c default line 0 
+permit sn-pw string-hex AAAA-AAAAAAAA hex 0000000000000000 line c default line name c 
+permit sn-pw string-hex AAAA-AAAAAAAA hex 0000000000000000 line c 
+permit sn-pw string-hex AAAA-AAAAAAAA hex 0000000000000000 line name c default line 0 
+permit sn-pw string-hex AAAA-AAAAAAAA hex 0000000000000000 line name c default line name c 
+permit sn-pw string-hex AAAA-AAAAAAAA hex 0000000000000000 line name c 
+permit sn-pw string-hex AAAA-AAAAAAAA string c line c default line 0 
+permit sn-pw string-hex AAAA-AAAAAAAA string c line c default line name c 
+permit sn-pw string-hex AAAA-AAAAAAAA string c line c 
+permit sn-pw string-hex AAAA-AAAAAAAA string c line name c default line 0 
+permit sn-pw string-hex AAAA-AAAAAAAA string c line name c default line name c 
+permit sn-pw string-hex AAAA-AAAAAAAA string c line name c 

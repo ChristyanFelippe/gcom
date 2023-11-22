@@ -1,0 +1,89 @@
+active 
+aim 0 name c 
+aim 0 
+aim name c 
+auth-mode open 
+auth-mode wpa-wpa2-psk 
+auth-mode wpa2-psk 
+encrypt-mode aes 
+encrypt-mode none 
+encrypt-mode tkip 
+encrypt-mode tkip-aes 
+exit 
+frequency 2.4g channel 1 bandwidth 20 work-mode 11bg 
+frequency 2.4g channel 1 bandwidth 20 work-mode 11bgn 
+frequency 2.4g channel 1 bandwidth 20 work-mode 11n 
+frequency 2.4g channel 1 bandwidth 20 work-mode 11b 
+frequency 2.4g channel 1 bandwidth 20 work-mode 11g 
+frequency 2.4g channel 1 bandwidth 40 work-mode 11bg 
+frequency 2.4g channel 1 bandwidth 40 work-mode 11bgn 
+frequency 2.4g channel 1 bandwidth 40 work-mode 11n 
+frequency 2.4g channel 1 bandwidth 40 work-mode 11b 
+frequency 2.4g channel 1 bandwidth 40 work-mode 11g 
+frequency 2.4g channel 1 bandwidth auto work-mode 11bg 
+frequency 2.4g channel 1 bandwidth auto work-mode 11bgn 
+frequency 2.4g channel 1 bandwidth auto work-mode 11n 
+frequency 2.4g channel 1 bandwidth auto work-mode 11b 
+frequency 2.4g channel 1 bandwidth auto work-mode 11g 
+frequency 2.4g channel auto bandwidth 20 work-mode 11bg 
+frequency 2.4g channel auto bandwidth 20 work-mode 11bgn 
+frequency 2.4g channel auto bandwidth 20 work-mode 11n 
+frequency 2.4g channel auto bandwidth 20 work-mode 11b 
+frequency 2.4g channel auto bandwidth 20 work-mode 11g 
+frequency 2.4g channel auto bandwidth 40 work-mode 11bg 
+frequency 2.4g channel auto bandwidth 40 work-mode 11bgn 
+frequency 2.4g channel auto bandwidth 40 work-mode 11n 
+frequency 2.4g channel auto bandwidth 40 work-mode 11b 
+frequency 2.4g channel auto bandwidth 40 work-mode 11g 
+frequency 2.4g channel auto bandwidth auto work-mode 11bg 
+frequency 2.4g channel auto bandwidth auto work-mode 11bgn 
+frequency 2.4g channel auto bandwidth auto work-mode 11n 
+frequency 2.4g channel auto bandwidth auto work-mode 11b 
+frequency 2.4g channel auto bandwidth auto work-mode 11g 
+frequency 5g channel 36 bandwidth 20 work-mode 11n-ac 
+frequency 5g channel 36 bandwidth 20 work-mode 11a-n-ac 
+frequency 5g channel 36 bandwidth 20 work-mode 11ac 
+frequency 5g channel 36 bandwidth 20 work-mode 11a 
+frequency 5g channel 36 bandwidth 20 work-mode 11a-n 
+frequency 5g channel 36 bandwidth 40 work-mode 11n-ac 
+frequency 5g channel 36 bandwidth 40 work-mode 11a-n-ac 
+frequency 5g channel 36 bandwidth 40 work-mode 11ac 
+frequency 5g channel 36 bandwidth 40 work-mode 11a 
+frequency 5g channel 36 bandwidth 40 work-mode 11a-n 
+frequency 5g channel 36 bandwidth 80 work-mode 11n-ac 
+frequency 5g channel 36 bandwidth 80 work-mode 11a-n-ac 
+frequency 5g channel 36 bandwidth 80 work-mode 11ac 
+frequency 5g channel 36 bandwidth 80 work-mode 11a 
+frequency 5g channel 36 bandwidth 80 work-mode 11a-n 
+frequency 5g channel 36 bandwidth auto work-mode 11n-ac 
+frequency 5g channel 36 bandwidth auto work-mode 11a-n-ac 
+frequency 5g channel 36 bandwidth auto work-mode 11ac 
+frequency 5g channel 36 bandwidth auto work-mode 11a 
+frequency 5g channel 36 bandwidth auto work-mode 11a-n 
+frequency 5g channel auto bandwidth 20 work-mode 11n-ac 
+frequency 5g channel auto bandwidth 20 work-mode 11a-n-ac 
+frequency 5g channel auto bandwidth 20 work-mode 11ac 
+frequency 5g channel auto bandwidth 20 work-mode 11a 
+frequency 5g channel auto bandwidth 20 work-mode 11a-n 
+frequency 5g channel auto bandwidth 40 work-mode 11n-ac 
+frequency 5g channel auto bandwidth 40 work-mode 11a-n-ac 
+frequency 5g channel auto bandwidth 40 work-mode 11ac 
+frequency 5g channel auto bandwidth 40 work-mode 11a 
+frequency 5g channel auto bandwidth 40 work-mode 11a-n 
+frequency 5g channel auto bandwidth 80 work-mode 11n-ac 
+frequency 5g channel auto bandwidth 80 work-mode 11a-n-ac 
+frequency 5g channel auto bandwidth 80 work-mode 11ac 
+frequency 5g channel auto bandwidth 80 work-mode 11a 
+frequency 5g channel auto bandwidth 80 work-mode 11a-n 
+frequency 5g channel auto bandwidth auto work-mode 11n-ac 
+frequency 5g channel auto bandwidth auto work-mode 11a-n-ac 
+frequency 5g channel auto bandwidth auto work-mode 11ac 
+frequency 5g channel auto bandwidth auto work-mode 11a 
+frequency 5g channel auto bandwidth auto work-mode 11a-n 
+tx-power 15 
+tx-power 35 
+tx-power 50 
+tx-power 70 
+tx-power 100 
+wlan disable 
+wlan enable 

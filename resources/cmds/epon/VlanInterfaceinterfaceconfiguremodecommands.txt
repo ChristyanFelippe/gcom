@@ -1,0 +1,148 @@
+description c 
+end 
+exit 
+igmp-proxy 
+ip address 1.1.1.1 1.1.1.1 override 
+ip address 1.1.1.1 1.1.1.1 
+ip address primary 1.1.1.1 
+ip address range 1.1.1.1 1.1.1.1 
+ip icmp unreachable 
+ip igmp access-group 1 all 
+ip igmp access-group 1 ethernet 1/1 
+ip igmp create-group 1.1.1.1 source * 
+ip igmp create-group 1.1.1.1 source 1.1.1.1 
+ip igmp last-member-query-interval 1 
+ip igmp limit-group 0 
+ip igmp query-interval 15 
+ip igmp query-max-response-time 1 
+ip igmp robustness-varible 2 
+ip igmp version 1 
+ip igmp 
+ipv6 address A:A::A:A link-local 
+ipv6 address A:A::A:A/1 eui-64 
+ipv6 address A:A::A:A/1 
+ipv6 address autoconfig 
+ipv6 nd dad attemps 0 
+ipv6 nd ns retrans-time 1 
+ipv6 nd reachable-time 1 
+ipv6 neighbors max-learning-num 1 
+ipv6 pathmtu 1280 
+no description 
+no igmp-proxy 
+no ip address 1.1.1.1 1.1.1.1 
+no ip address range 1.1.1.1 1.1.1.1 
+no ip address range 
+no ip address 
+no ip icmp unreachable 
+no ip igmp access-group all 
+no ip igmp access-group ethernet 1/1 
+no ip igmp create-group 1.1.1.1 source * 
+no ip igmp create-group 1.1.1.1 source 1.1.1.1 
+no ip igmp last-member-query-interval 
+no ip igmp limit-group 
+no ip igmp query-interval 
+no ip igmp query-max-response-time 
+no ip igmp robustness-varible 
+no ip igmp static-group all 
+no ip igmp version 
+no ip igmp 
+no ipv6 address A:A::A:A link-local 
+no ipv6 address A:A::A:A/1 eui-64 
+no ipv6 address A:A::A:A/1 
+no ipv6 address autoconfig 
+no ipv6 nd dad attemps 
+no ipv6 nd ns retrans-time 
+no ipv6 nd reachable-time 
+no ipv6 neighbors max-learning-num 
+no ipv6 pathmtu 
+no shutdown 
+no urpf 
+shutdown 
+urpf loose 
+urpf strict 
+show description interface interface display interface display interface display pon ethernet pon 
+show description interface interface display interface display interface display 
+show description interface interface display interface display pon ethernet pon interface display pon ethernet pon 
+show description interface interface display interface display pon ethernet pon interface display 
+show description interface interface display interface display pon ethernet pon 
+show description interface interface display interface display 
+show description interface interface display pon ethernet pon interface display interface display pon ethernet pon 
+show description interface interface display pon ethernet pon interface display interface display 
+show description interface interface display pon ethernet pon interface display pon ethernet pon interface display pon ethernet pon 
+show description interface interface display pon ethernet pon interface display pon ethernet pon interface display 
+show description interface interface display pon ethernet pon interface display pon ethernet pon 
+show description interface interface display pon ethernet pon interface display 
+show description interface interface display pon ethernet pon 
+show description interface interface display 
+show description interface 
+show igmp-proxy 
+show ip def cpu 
+show ip fdb 1.1.1.1 1.1.1.1 
+show ip fdb 1.1.1.1 
+show ip fdb 
+show ip icmp mask-reply 
+show ip icmp unreachable supervlan-interface 1 
+show ip icmp unreachable vlan-interface 1 
+show ip icmp unreachable 
+show ip interface loopback-interface 0 
+show ip interface loopback-interface 
+show ip interface meth-interface 0 
+show ip interface 
+show ip lpm 
+show ip prefix-list c 
+show ip prefix-list 
+show ip route 1.1.1.1 1.1.1.1 
+show ip route 1.1.1.1 
+show ip route ecmp 1.1.1.1 1.1.1.1 
+show ip route ecmp 1.1.1.1 
+show ip route ecmp static 
+show ip route ecmp 
+show ip route 
+show ipv6 fdb 
+show ipv6 icmpv6 multicast-echo-reply 
+show ipv6 interface supervlan-interface 1 
+show ipv6 interface vlan-interface 1 
+show ipv6 interface 
+show ipv6 lpm 
+show ipv6 nd dad attemps 
+show ipv6 nd ns retrans-time 
+show ipv6 nd reachable-time 
+show ipv6 neighbors A:A::A:A 
+show ipv6 neighbors all 
+show ipv6 neighbors dynamic 
+show ipv6 neighbors mac A:A:A:A:A:A 
+show ipv6 neighbors max-learning-num 
+show ipv6 neighbors static 
+show ipv6 route 
+show shutdown interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 
+show shutdown interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 pon 0/1 pon 0/1 
+show shutdown interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show shutdown interface pon 0/1 pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 
+show shutdown interface 
+show urpf interface supervlan-interface 1 
+show urpf interface vlan-interface 1 
+show urpf 

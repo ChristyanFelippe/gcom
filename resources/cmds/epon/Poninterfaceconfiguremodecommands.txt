@@ -1,0 +1,1249 @@
+alarm all-packets threshold exceed 1 normal 1 
+alarm all-packets threshold exceed 1 
+alarm all-packets 
+arp anti trust 
+arp anti-flood threshold 1 
+arp overwrite 
+bandwidth egress 64 64 
+bandwidth egress 64 
+black-list add mac A:A:A:A:A:A 
+black-list del all 
+black-list del mac A:A:A:A:A:A 
+clear erps instance 0 statistics 
+clear erps statistics 
+clear interface 
+clear onu-auto-image cccc 
+clear pon-statistics 
+clear xaui-statistics 
+crypto key-timer 774 
+crypto mode hw-aes-32 
+crypto mode hw-aes-48 
+crypto mode hw-ctc-triple 
+crypto mode hw-single-churning 
+crypto mode sw-aes-32 
+crypto mode sw-aes-48 
+description c 
+dhcp option82 circuit-id string c 
+dhcp option82 circuit-id user-defined c 
+dhcp option82 remote-id string c 
+dhcp option82 remote-id string hostname 
+dhcp option82 remote-id user-defined c 
+dhcp option82 strategy append hostname 
+dhcp option82 strategy append hostname-ip 
+dhcp option82 strategy drop 
+dhcp option82 strategy keep 
+dhcp option82 strategy replace 
+dhcp option82 
+dhcp-snooping max-clients 0 
+dhcp-snooping trust 
+discard-bpdu 
+dlf-forward multicast 
+dlf-forward unicast 
+dot1x daemon time 10 
+dot1x daemon 
+dot1x max-user 1 
+dot1x port-control auto 
+dot1x port-control forceauthorized 
+dot1x port-control forceunauthorized 
+dot1x re-authenticate 
+dot1x re-authentication 
+dtag insert 1 1 1 
+dtag mode customer 
+dtag mode uplink 
+dtag pass-through 1 1 
+epon-vlan onu 1 domain-id 1 start-vlan 1 end-vlan 1 egress-vlan 1 pop ingress inner-vlan egress inner-vlan 
+epon-vlan onu 1 domain-id 1 start-vlan 1 end-vlan 1 egress-vlan 1 pop ingress inner-vlan egress top-vlan 
+epon-vlan onu 1 domain-id 1 start-vlan 1 end-vlan 1 egress-vlan 1 pop ingress top-vlan egress inner-vlan 
+epon-vlan onu 1 domain-id 1 start-vlan 1 end-vlan 1 egress-vlan 1 pop ingress top-vlan egress top-vlan 
+epon-vlan onu 1 domain-id 1 start-vlan 1 end-vlan 1 egress-vlan 1 push ingress inner-vlan egress inner-vlan 
+epon-vlan onu 1 domain-id 1 start-vlan 1 end-vlan 1 egress-vlan 1 push ingress inner-vlan egress top-vlan 
+epon-vlan onu 1 domain-id 1 start-vlan 1 end-vlan 1 egress-vlan 1 push ingress top-vlan egress inner-vlan 
+epon-vlan onu 1 domain-id 1 start-vlan 1 end-vlan 1 egress-vlan 1 push ingress top-vlan egress top-vlan 
+epon-vlan onu 1 domain-id 1 start-vlan 1 end-vlan 1 egress-vlan 1 swap ingress inner-vlan egress inner-vlan 
+epon-vlan onu 1 domain-id 1 start-vlan 1 end-vlan 1 egress-vlan 1 swap ingress inner-vlan egress top-vlan 
+epon-vlan onu 1 domain-id 1 start-vlan 1 end-vlan 1 egress-vlan 1 swap ingress top-vlan egress inner-vlan 
+epon-vlan onu 1 domain-id 1 start-vlan 1 end-vlan 1 egress-vlan 1 swap ingress top-vlan egress top-vlan 
+exit 
+hybrid-list add loid c password c 
+hybrid-list add loid c 
+hybrid-list add mac A:A:A:A:A:A 
+hybrid-list del all 
+hybrid-list del loid c 
+hybrid-list del mac A:A:A:A:A:A 
+igmp-snooping deny group A:A:A:A:A:A vlan 1 
+igmp-snooping deny group-range A:A:A:A:A:A multi-count 1 vlan 1 
+igmp-snooping drop query 
+igmp-snooping drop report 
+igmp-snooping fast-leave 
+igmp-snooping group-limit 0 
+igmp-snooping group-limit action drop 
+igmp-snooping group-limit action replace 
+igmp-snooping multicast vlan 1 range 1.1.1.1 1.1.1.1 
+igmp-snooping multicast vlan 1 
+igmp-snooping permit group A:A:A:A:A:A vlan 1 
+igmp-snooping permit group-range A:A:A:A:A:A multi-count 1 vlan 1 
+igmp-snooping profile 1 
+igmp-snooping profile refer c 
+igmp-snooping record-host 
+ingress acceptable-frame all 
+ingress acceptable-frame tagged 
+ingress filtering 
+ip-source-guard ip 
+ip-source-guard ip-mac 
+ip-source-guard ip-mac-vlan 
+ip-source-guard 
+l2-tunnel cdp 
+l2-tunnel lacp 
+l2-tunnel pagp 
+l2-tunnel stp 
+l2-tunnel udld 
+l2-tunnel vtp 
+l2-tunnel 
+laser-always-detect disable 
+laser-always-detect one-shot detect-mode dark-time dark-offset 32 
+laser-always-detect one-shot detect-mode dark-time dark-sample 0 dark-offset 32 
+laser-always-detect one-shot detect-mode dark-time dark-sample 0 
+laser-always-detect one-shot detect-mode dark-time 
+laser-always-detect one-shot detect-mode los-monitor los-threshold 2 
+laser-always-detect one-shot detect-mode los-monitor 
+laser-always-detect one-shot detect-mode missing-grand window 16 
+laser-always-detect one-shot detect-mode missing-grand 
+local-switch 
+loid-list add loid c password c 
+loid-list add loid c 
+loid-list del all 
+loid-list del loid c 
+mac-address-table learning 
+mac-address-table max-mac-count 1 
+mld-snooping deny group A:A:A:A:A:A vlan 1 
+mld-snooping deny group-range A:A:A:A:A:A multi-count 1 vlan 1 
+mld-snooping fast-leave 
+mld-snooping group-limit 0 
+mld-snooping multicast vlan 1 
+mld-snooping permit group A:A:A:A:A:A vlan 1 
+mld-snooping permit group-range A:A:A:A:A:A multi-count 1 vlan 1 
+no alarm all-packets threshold 
+no alarm all-packets 
+no arp anti trust 
+no arp anti-flood threshold 
+no arp overwrite 
+no bandwidth egress 
+no crypto key-timer 
+no crypto mode 
+no description 
+no dhcp option82 circuit-id string 
+no dhcp option82 circuit-id user-defined 
+no dhcp option82 remote-id string 
+no dhcp option82 remote-id user-defined 
+no dhcp option82 strategy 
+no dhcp option82 
+no dhcp-snooping max-clients 
+no dhcp-snooping trust 
+no discard-bpdu 
+no dlf-forward multicast 
+no dlf-forward unicast 
+no dot1x daemon 
+no dot1x max-user 
+no dot1x port-control 
+no dot1x re-authentication 
+no dtag insert 1 1 
+no dtag insert all 
+no dtag mode 
+no dtag outer-tpid 
+no dtag pass-through 1 1 
+no dtag pass-through all 
+no epon-vlan onu 1 domain-id 1 
+no igmp-snooping deny group A:A:A:A:A:A vlan 1 
+no igmp-snooping deny group 
+no igmp-snooping drop query 
+no igmp-snooping drop report 
+no igmp-snooping fast-leave 
+no igmp-snooping group-limit 
+no igmp-snooping multicast range 
+no igmp-snooping multicast vlan 
+no igmp-snooping permit group A:A:A:A:A:A vlan 1 
+no igmp-snooping permit group 
+no igmp-snooping profile refer c 
+no igmp-snooping profile refer 
+no igmp-snooping record-host 
+no ingress acceptable-frame 
+no ingress filtering 
+no ip-source-guard 
+no l2-tunnel cdp 
+no l2-tunnel lacp 
+no l2-tunnel pagp 
+no l2-tunnel stp 
+no l2-tunnel udld 
+no l2-tunnel vtp 
+no l2-tunnel 
+no local-switch 
+no mac-address-table learning 
+no mac-address-table max-mac-count 
+no mld-snooping deny group A:A:A:A:A:A vlan 1 
+no mld-snooping deny group 
+no mld-snooping fast-leave 
+no mld-snooping group-limit 
+no mld-snooping multicast vlan 
+no mld-snooping permit group A:A:A:A:A:A vlan 1 
+no mld-snooping permit group 
+no onu-p2p 
+no port-car 
+no port-car-rate 
+no port-isolation uplink all 
+no pppoeplus circuit-id 
+no pppoeplus drop padi 
+no pppoeplus drop pado 
+no pppoeplus strategy 
+no priority 
+no rate-limit police downstream all-packet 
+no rate-limit police downstream bc-packet 
+no rate-limit police downstream cpu-packet 
+no rate-limit police downstream dlf-packet 
+no rate-limit police downstream mc-packet 
+no rate-limit police downstream 
+no rate-limit police upstream 
+no shutdown 
+no shutdown-control broadcast 
+no shutdown-control multicast 
+no shutdown-control unicast 
+no spanning-tree cost 
+no spanning-tree mst config-digest-snooping 
+no spanning-tree mst external cost 
+no spanning-tree mst instance 0 cost 
+no spanning-tree mst instance 0 port-priority 
+no spanning-tree mst link-type 
+no spanning-tree mst portfast 
+no spanning-tree mst root-guard 
+no spanning-tree point-to-point 
+no spanning-tree port-priority 
+no spanning-tree portfast 
+no spanning-tree remote-loop-detect 
+no spanning-tree root-guard 
+no spanning-tree transit-limit 
+no spanning-tree 
+no src-dlf-forward 
+no storm-control broadcast 
+no storm-control multicast 
+no storm-control unicast 
+no switchport default vlan 
+no switchport hybrid vlan c 
+no switchport hybrid vlan all 
+no switchport mode 
+no switchport trunk allowed vlan c 
+no switchport trunk allowed vlan all 
+no vlan-swap 1 1 
+no vlan-swap all 
+onu-authenticate mode disable 
+onu-authenticate mode hybrid-auth 
+onu-authenticate mode loid-auth 
+onu-authenticate mode mac-auth white-list 
+onu-p2p 
+onu-rtt 1 
+onu-trouble-replace mac A:A:A:A:A:A A:A:A:A:A:A 
+onu-trouble-replace onu-id 1 A:A:A:A:A:A 
+port-car 
+port-car-rate 1 
+port-control mode master 
+port-control mode slave 
+port-isolation uplink ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink ethernet 1/1 ethernet 1/1 ethernet 1/1 
+port-isolation uplink ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+port-isolation uplink ethernet 1/1 ethernet 1/1 pon 0/1 
+port-isolation uplink ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+port-isolation uplink ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+port-isolation uplink ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+port-isolation uplink ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink ethernet 1/1 ethernet 1/1 
+port-isolation uplink ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink ethernet 1/1 pon 0/1 ethernet 1/1 
+port-isolation uplink ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+port-isolation uplink ethernet 1/1 pon 0/1 pon 0/1 
+port-isolation uplink ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+port-isolation uplink ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+port-isolation uplink ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+port-isolation uplink ethernet 1/1 pon 0/1 to pon 0/1 
+port-isolation uplink ethernet 1/1 pon 0/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 pon 0/1 
+port-isolation uplink ethernet 1/1 to ethernet 1/1 
+port-isolation uplink ethernet 1/1 
+port-isolation uplink pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink pon 0/1 ethernet 1/1 ethernet 1/1 
+port-isolation uplink pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+port-isolation uplink pon 0/1 ethernet 1/1 pon 0/1 
+port-isolation uplink pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+port-isolation uplink pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+port-isolation uplink pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+port-isolation uplink pon 0/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink pon 0/1 ethernet 1/1 
+port-isolation uplink pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink pon 0/1 pon 0/1 ethernet 1/1 
+port-isolation uplink pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+port-isolation uplink pon 0/1 pon 0/1 pon 0/1 
+port-isolation uplink pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+port-isolation uplink pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+port-isolation uplink pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+port-isolation uplink pon 0/1 pon 0/1 to pon 0/1 
+port-isolation uplink pon 0/1 pon 0/1 
+port-isolation uplink pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 
+port-isolation uplink pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+port-isolation uplink pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 
+port-isolation uplink pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+port-isolation uplink pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+port-isolation uplink pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+port-isolation uplink pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink pon 0/1 to pon 0/1 ethernet 1/1 
+port-isolation uplink pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 
+port-isolation uplink pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+port-isolation uplink pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+port-isolation uplink pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+port-isolation uplink pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+port-isolation uplink pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+port-isolation uplink pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+port-isolation uplink pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+port-isolation uplink pon 0/1 to pon 0/1 pon 0/1 
+port-isolation uplink pon 0/1 to pon 0/1 
+port-isolation uplink pon 0/1 
+priority 0 
+rate-limit police downstream all-packet ratio 1 burst 128 token 1 
+shutdown 
+shutdown-control broadcast 1 
+shutdown-control multicast 1 
+shutdown-control unicast 1 
+spanning-tree cost 1 
+spanning-tree mcheck 
+spanning-tree mst config-digest-snooping 
+spanning-tree mst external cost 1 
+spanning-tree mst instance 0 cost 1 
+spanning-tree mst instance 0 port-priority 0 
+spanning-tree mst link-type point-to-point auto 
+spanning-tree mst link-type point-to-point forcefalse 
+spanning-tree mst link-type point-to-point forcetrue 
+spanning-tree mst mcheck 
+spanning-tree mst portfast 
+spanning-tree mst root-guard 
+spanning-tree point-to-point auto 
+spanning-tree point-to-point forcefalse 
+spanning-tree point-to-point forcetrue 
+spanning-tree port-priority 0 
+spanning-tree portfast 
+spanning-tree remote-loop-detect 
+spanning-tree root-guard 
+spanning-tree transit-limit 1 
+spanning-tree 
+src-dlf-forward 
+storm-control broadcast 64 
+storm-control multicast 64 
+storm-control unicast 64 
+switchport default vlan 1 
+switchport hybrid tagged vlan c 
+switchport hybrid tagged vlan all 
+switchport hybrid untagged vlan c 
+switchport hybrid untagged vlan all 
+switchport mode access 
+switchport mode hybrid 
+switchport mode trunk 
+switchport trunk allowed vlan c 
+switchport trunk allowed vlan all 
+vlan-swap 1 1 1 
+white-list add mac A:A:A:A:A:A 
+white-list del all 
+white-list del mac A:A:A:A:A:A 
+show alarm all-packets interface ethernet 1/1 
+show alarm all-packets interface pon 0/1 
+show alarm all-packets interface 
+show alarm all-packets 
+show alarm cpu 
+show arp 1.1.1.1 1.1.1.1 
+show arp 1.1.1.1 
+show arp aging-time 
+show arp all 
+show arp anti interface ethernet 1/1 
+show arp anti interface pon 0/1 
+show arp anti interface 
+show arp anti-flood port-threshold 
+show arp anti-flood 
+show arp anti-spoofing 
+show arp dynamic 
+show arp interface supervlan-interface 1 
+show arp interface vlan-interface 1 
+show arp mac A:A:A:A:A:A 
+show arp manual control 
+show arp overwrite interface ethernet 1/1 
+show arp overwrite interface pon 0/1 
+show arp overwrite 
+show arp peer 
+show arp probe 
+show arp static 
+show bandwidth cpu-queue 
+show bandwidth queue interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 to ethernet 1/1 
+show bandwidth queue interface ethernet 1/1 
+show bandwidth queue interface 
+show black-list 
+show crypto key-timer 
+show crypto mode 
+show description interface interface display interface display interface display pon ethernet pon 
+show description interface interface display interface display interface display 
+show description interface interface display interface display pon ethernet pon interface display pon ethernet pon 
+show description interface interface display interface display pon ethernet pon interface display 
+show description interface interface display interface display pon ethernet pon 
+show description interface interface display interface display 
+show description interface interface display pon ethernet pon interface display interface display pon ethernet pon 
+show description interface interface display pon ethernet pon interface display interface display 
+show description interface interface display pon ethernet pon interface display pon ethernet pon interface display pon ethernet pon 
+show description interface interface display pon ethernet pon interface display pon ethernet pon interface display 
+show description interface interface display pon ethernet pon interface display pon ethernet pon 
+show description interface interface display pon ethernet pon interface display 
+show description interface interface display pon ethernet pon 
+show description interface interface display 
+show description interface 
+show dhcp option82 interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 
+show dhcp option82 interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show dhcp option82 interface pon 0/1 pon 0/1 pon 0/1 
+show dhcp option82 interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show dhcp option82 interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show dhcp option82 interface pon 0/1 pon 0/1 to pon 0/1 
+show dhcp option82 interface pon 0/1 pon 0/1 
+show dhcp option82 interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show dhcp option82 interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show dhcp option82 interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show dhcp option82 interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show dhcp option82 interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show dhcp option82 interface pon 0/1 to pon 0/1 pon 0/1 
+show dhcp option82 interface pon 0/1 to pon 0/1 
+show dhcp option82 interface pon 0/1 
+show dhcp option82 vlan c 
+show dhcp option82 vlan 
+show dhcp option82 
+show dhcp-snooping clients unack 
+show dhcp-snooping clients 
+show dhcp-snooping interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 to ethernet 1/1 
+show dhcp-snooping interface ethernet 1/1 
+show dhcp-snooping interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show dhcp-snooping interface pon 0/1 pon 0/1 pon 0/1 
+show dhcp-snooping interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show dhcp-snooping interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show dhcp-snooping interface pon 0/1 pon 0/1 to pon 0/1 
+show dhcp-snooping interface pon 0/1 pon 0/1 
+show dhcp-snooping interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show dhcp-snooping interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show dhcp-snooping interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show dhcp-snooping interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show dhcp-snooping interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show dhcp-snooping interface pon 0/1 to pon 0/1 pon 0/1 
+show dhcp-snooping interface pon 0/1 to pon 0/1 
+show dhcp-snooping interface pon 0/1 
+show dhcp-snooping interface 
+show dhcp-snooping vlan 1 
+show dhcp-snooping vlan 
+show discard-bpdu 
+show dlf-forward interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dlf-forward interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show dlf-forward interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dlf-forward interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dlf-forward interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dlf-forward interface ethernet 1/1 ethernet 1/1 
+show dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dlf-forward interface ethernet 1/1 to ethernet 1/1 
+show dlf-forward interface ethernet 1/1 
+show dlf-forward interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show dlf-forward interface pon 0/1 pon 0/1 pon 0/1 
+show dlf-forward interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show dlf-forward interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show dlf-forward interface pon 0/1 pon 0/1 to pon 0/1 
+show dlf-forward interface pon 0/1 pon 0/1 
+show dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 
+show dlf-forward interface pon 0/1 to pon 0/1 
+show dlf-forward interface pon 0/1 
+show dlf-forward interface 
+show dot1x daemon interface ethernet 1/1 
+show dot1x daemon 
+show dot1x detect 
+show dot1x eapol-relay interface pon 0/1 
+show dot1x eapol-relay 
+show dot1x guest-vlan 
+show dot1x max-reauth 
+show dot1x max-req 
+show dot1x port-auth 
+show dot1x quiet-period-value 
+show dot1x session mac-address A:A:A:A:A:A 
+show dot1x session 
+show dot1x 
+show dtag insert 
+show dtag pass-through 
+show dtag 
+show epon-vlan onu 1 
+show hybrid-list 
+show igmp-snooping mvr c-vlan 1 sp-vlan 1 
+show igmp-snooping mvr c-vlan 1 
+show igmp-snooping mvr sp-vlan 1 
+show igmp-snooping mvr 
+show igmp-snooping preview status 
+show igmp-snooping preview 
+show igmp-snooping profile c 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 
+show igmp-snooping profile interface 
+show igmp-snooping profile vlan 1 
+show igmp-snooping profile vlan 
+show igmp-snooping profile 
+show igmp-snooping record-host interface ethernet 1/1 
+show igmp-snooping record-host interface pon 0/1 
+show igmp-snooping record-host 
+show igmp-snooping router-dynamic 
+show igmp-snooping router-static interface channel-group 0 
+show igmp-snooping router-static interface ethernet 1/1 
+show igmp-snooping router-static vlan 1 
+show igmp-snooping router-static 
+show igmp-snooping 
+show ingress interface ethernet 1/1 
+show ingress 
+show ip-source-guard bind ip 1.1.1.1 
+show ip-source-guard bind 
+show ip-source-guard permit igmp 
+show ip-source-guard vlan 
+show ip-source-guard 
+show l2-tunnel drop-threshold 
+show l2-tunnel interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 to ethernet 1/1 
+show l2-tunnel interface ethernet 1/1 
+show l2-tunnel interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show l2-tunnel interface pon 0/1 pon 0/1 pon 0/1 
+show l2-tunnel interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show l2-tunnel interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show l2-tunnel interface pon 0/1 pon 0/1 to pon 0/1 
+show l2-tunnel interface pon 0/1 pon 0/1 
+show l2-tunnel interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show l2-tunnel interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show l2-tunnel interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show l2-tunnel interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show l2-tunnel interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show l2-tunnel interface pon 0/1 to pon 0/1 pon 0/1 
+show l2-tunnel interface pon 0/1 to pon 0/1 
+show l2-tunnel interface pon 0/1 
+show l2-tunnel interface 
+show local-switch interface ethernet 1/1 
+show local-switch interface pon 0/1 
+show local-switch 
+show loid-list 
+show mac-address-table A:A:A:A:A:A vlan 1 
+show mac-address-table A:A:A:A:A:A 
+show mac-address-table age-time 
+show mac-address-table blackhole vlan 1 
+show mac-address-table blackhole 
+show mac-address-table cpu 
+show mac-address-table dynamic interface channel-group 0 vlan 1 
+show mac-address-table dynamic interface channel-group 0 
+show mac-address-table dynamic interface ethernet 1/1 vlan 1 
+show mac-address-table dynamic interface ethernet 1/1 
+show mac-address-table dynamic interface pon 0/1 vlan 1 
+show mac-address-table dynamic interface pon 0/1 
+show mac-address-table dynamic vlan 1 
+show mac-address-table dynamic 
+show mac-address-table interface channel-group 0 vlan 1 
+show mac-address-table interface channel-group 0 
+show mac-address-table interface ethernet 1/1 vlan 1 
+show mac-address-table interface ethernet 1/1 
+show mac-address-table interface pon 0/1 vlan 1 
+show mac-address-table interface pon 0/1 
+show mac-address-table learning interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 to ethernet 1/1 
+show mac-address-table learning interface ethernet 1/1 
+show mac-address-table learning interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show mac-address-table learning interface pon 0/1 pon 0/1 pon 0/1 
+show mac-address-table learning interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show mac-address-table learning interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show mac-address-table learning interface pon 0/1 pon 0/1 to pon 0/1 
+show mac-address-table learning interface pon 0/1 pon 0/1 
+show mac-address-table learning interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show mac-address-table learning interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show mac-address-table learning interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show mac-address-table learning interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show mac-address-table learning interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show mac-address-table learning interface pon 0/1 to pon 0/1 pon 0/1 
+show mac-address-table learning interface pon 0/1 to pon 0/1 
+show mac-address-table learning interface pon 0/1 
+show mac-address-table learning interface 
+show mac-address-table max-mac-count interface channel-group 0 
+show mac-address-table max-mac-count interface ethernet 1/1 pon 0/1 
+show mac-address-table max-mac-count interface ethernet 1/1 
+show mac-address-table max-mac-count interface pon 0/1 
+show mac-address-table max-mac-count interface 
+show mac-address-table max-mac-count vlan 1 
+show mac-address-table max-mac-count vlan 
+show mac-address-table move update 
+show mac-address-table onu A:A:A:A:A:A 
+show mac-address-table onu 
+show mac-address-table permanent interface channel-group 0 vlan 1 
+show mac-address-table permanent interface channel-group 0 
+show mac-address-table permanent interface ethernet 1/1 vlan 1 
+show mac-address-table permanent interface ethernet 1/1 
+show mac-address-table permanent interface pon 0/1 vlan 1 
+show mac-address-table permanent interface pon 0/1 
+show mac-address-table permanent vlan 1 
+show mac-address-table permanent 
+show mac-address-table static interface channel-group 0 vlan 1 
+show mac-address-table static interface channel-group 0 
+show mac-address-table static interface ethernet 1/1 vlan 1 
+show mac-address-table static interface ethernet 1/1 
+show mac-address-table static interface pon 0/1 vlan 1 
+show mac-address-table static interface pon 0/1 
+show mac-address-table static vlan 1 
+show mac-address-table static 
+show mac-address-table vlan 1 
+show mac-address-table 
+show mld-snooping router-dynamic 
+show mld-snooping router-static interface ethernet 1/1 
+show mld-snooping router-static vlan 1 
+show mld-snooping router-static 
+show mld-snooping 
+show onu-authenticate mode 
+show port-car ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show port-car ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show port-car ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show port-car ethernet 1/1 ethernet 1/1 pon 0/1 
+show port-car ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show port-car ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show port-car ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show port-car ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show port-car ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show port-car ethernet 1/1 ethernet 1/1 
+show port-car ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show port-car ethernet 1/1 pon 0/1 ethernet 1/1 
+show port-car ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show port-car ethernet 1/1 pon 0/1 pon 0/1 
+show port-car ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show port-car ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show port-car ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show port-car ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show port-car ethernet 1/1 pon 0/1 to pon 0/1 
+show port-car ethernet 1/1 pon 0/1 
+show port-car ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show port-car ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show port-car ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show port-car ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 
+show port-car ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show port-car ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show port-car ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show port-car ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show port-car ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show port-car ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show port-car ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show port-car ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 
+show port-car ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show port-car ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 
+show port-car ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show port-car ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show port-car ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show port-car ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show port-car ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show port-car ethernet 1/1 to ethernet 1/1 pon 0/1 
+show port-car ethernet 1/1 to ethernet 1/1 
+show port-car ethernet 1/1 
+show port-car pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show port-car pon 0/1 ethernet 1/1 ethernet 1/1 
+show port-car pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show port-car pon 0/1 ethernet 1/1 pon 0/1 
+show port-car pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show port-car pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show port-car pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show port-car pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show port-car pon 0/1 ethernet 1/1 to ethernet 1/1 
+show port-car pon 0/1 ethernet 1/1 
+show port-car pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show port-car pon 0/1 pon 0/1 ethernet 1/1 
+show port-car pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show port-car pon 0/1 pon 0/1 pon 0/1 
+show port-car pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show port-car pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show port-car pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show port-car pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show port-car pon 0/1 pon 0/1 to pon 0/1 
+show port-car pon 0/1 pon 0/1 
+show port-car pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show port-car pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 
+show port-car pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show port-car pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 
+show port-car pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show port-car pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show port-car pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show port-car pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show port-car pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show port-car pon 0/1 to pon 0/1 ethernet 1/1 
+show port-car pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show port-car pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 
+show port-car pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show port-car pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show port-car pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show port-car pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show port-car pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show port-car pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show port-car pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show port-car pon 0/1 to pon 0/1 pon 0/1 
+show port-car pon 0/1 to pon 0/1 
+show port-car pon 0/1 
+show port-car 
+show port-control mode 
+show port-isolation 
+show rate-limit police 
+show rate-limit shaper downstream queue 0 
+show rate-limit shaper downstream queue 
+show rate-limit shaper downstream 
+show rate-limit shaper upstream 
+show shutdown interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 
+show shutdown interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 pon 0/1 pon 0/1 
+show shutdown interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show shutdown interface pon 0/1 pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 pon 0/1 
+show shutdown interface pon 0/1 to pon 0/1 
+show shutdown interface pon 0/1 
+show shutdown interface 
+show shutdown-control interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown-control interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show shutdown-control interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown-control interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show shutdown-control interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown-control interface ethernet 1/1 ethernet 1/1 
+show shutdown-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show shutdown-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show shutdown-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show shutdown-control interface ethernet 1/1 to ethernet 1/1 
+show shutdown-control interface ethernet 1/1 
+show shutdown-control interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show shutdown-control interface pon 0/1 pon 0/1 pon 0/1 
+show shutdown-control interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show shutdown-control interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show shutdown-control interface pon 0/1 pon 0/1 to pon 0/1 
+show shutdown-control interface pon 0/1 pon 0/1 
+show shutdown-control interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show shutdown-control interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show shutdown-control interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show shutdown-control interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show shutdown-control interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show shutdown-control interface pon 0/1 to pon 0/1 pon 0/1 
+show shutdown-control interface pon 0/1 to pon 0/1 
+show shutdown-control interface pon 0/1 
+show shutdown-control interface 
+show spanning-tree interface brief ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface brief ethernet 1/1 
+show spanning-tree interface brief pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree interface brief pon 0/1 pon 0/1 pon 0/1 
+show spanning-tree interface brief pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree interface brief pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show spanning-tree interface brief pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree interface brief pon 0/1 pon 0/1 
+show spanning-tree interface brief pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree interface brief pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show spanning-tree interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show spanning-tree interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree interface brief pon 0/1 to pon 0/1 pon 0/1 
+show spanning-tree interface brief pon 0/1 to pon 0/1 
+show spanning-tree interface brief pon 0/1 
+show spanning-tree interface brief 
+show spanning-tree interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show spanning-tree interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface ethernet 1/1 ethernet 1/1 
+show spanning-tree interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show spanning-tree interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree interface ethernet 1/1 to ethernet 1/1 
+show spanning-tree interface ethernet 1/1 
+show spanning-tree interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree interface pon 0/1 pon 0/1 pon 0/1 
+show spanning-tree interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show spanning-tree interface pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree interface pon 0/1 pon 0/1 
+show spanning-tree interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show spanning-tree interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show spanning-tree interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree interface pon 0/1 to pon 0/1 pon 0/1 
+show spanning-tree interface pon 0/1 to pon 0/1 
+show spanning-tree interface pon 0/1 
+show spanning-tree interface 
+show spanning-tree mst config-id 
+show spanning-tree mst disabled-instance 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface brief ethernet 1/1 
+show spanning-tree mst instance 0 interface brief 
+show spanning-tree mst instance 0 interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 to ethernet 1/1 
+show spanning-tree mst instance 0 interface ethernet 1/1 
+show spanning-tree mst instance 0 interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 pon 0/1 pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 to pon 0/1 pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 to pon 0/1 
+show spanning-tree mst instance 0 interface pon 0/1 
+show spanning-tree mst instance 0 interface 
+show spanning-tree mst instance brief c 
+show spanning-tree mst instance brief 
+show spanning-tree pvst instance brief c 
+show spanning-tree pvst instance brief 
+show spanning-tree remote-loop-detect interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 to ethernet 1/1 
+show spanning-tree remote-loop-detect interface ethernet 1/1 
+show spanning-tree remote-loop-detect interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 pon 0/1 pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 to pon 0/1 pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 to pon 0/1 
+show spanning-tree remote-loop-detect interface pon 0/1 
+show spanning-tree remote-loop-detect interface 
+show src-dlf-forward interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface ethernet 1/1 ethernet 1/1 pon 0/1 
+show src-dlf-forward interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show src-dlf-forward interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 pon 0/1 ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface ethernet 1/1 pon 0/1 pon 0/1 
+show src-dlf-forward interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show src-dlf-forward interface ethernet 1/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface ethernet 1/1 pon 0/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 pon 0/1 
+show src-dlf-forward interface ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface ethernet 1/1 
+show src-dlf-forward interface pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface pon 0/1 ethernet 1/1 ethernet 1/1 
+show src-dlf-forward interface pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface pon 0/1 ethernet 1/1 pon 0/1 
+show src-dlf-forward interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show src-dlf-forward interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show src-dlf-forward interface pon 0/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface pon 0/1 ethernet 1/1 
+show src-dlf-forward interface pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface pon 0/1 pon 0/1 ethernet 1/1 
+show src-dlf-forward interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface pon 0/1 pon 0/1 pon 0/1 
+show src-dlf-forward interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show src-dlf-forward interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show src-dlf-forward interface pon 0/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface pon 0/1 pon 0/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 ethernet 1/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 pon 0/1 
+show src-dlf-forward interface pon 0/1 to pon 0/1 
+show src-dlf-forward interface pon 0/1 
+show src-dlf-forward interface 
+show storm-control interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show storm-control interface ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show storm-control interface ethernet 1/1 ethernet 1/1 pon 0/1 
+show storm-control interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show storm-control interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show storm-control interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show storm-control interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface ethernet 1/1 ethernet 1/1 
+show storm-control interface ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface ethernet 1/1 pon 0/1 ethernet 1/1 
+show storm-control interface ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show storm-control interface ethernet 1/1 pon 0/1 pon 0/1 
+show storm-control interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show storm-control interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show storm-control interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show storm-control interface ethernet 1/1 pon 0/1 to pon 0/1 
+show storm-control interface ethernet 1/1 pon 0/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 pon 0/1 
+show storm-control interface ethernet 1/1 to ethernet 1/1 
+show storm-control interface ethernet 1/1 
+show storm-control interface pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface pon 0/1 ethernet 1/1 ethernet 1/1 
+show storm-control interface pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show storm-control interface pon 0/1 ethernet 1/1 pon 0/1 
+show storm-control interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show storm-control interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show storm-control interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show storm-control interface pon 0/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface pon 0/1 ethernet 1/1 
+show storm-control interface pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface pon 0/1 pon 0/1 ethernet 1/1 
+show storm-control interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show storm-control interface pon 0/1 pon 0/1 pon 0/1 
+show storm-control interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show storm-control interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show storm-control interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show storm-control interface pon 0/1 pon 0/1 to pon 0/1 
+show storm-control interface pon 0/1 pon 0/1 
+show storm-control interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 
+show storm-control interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show storm-control interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 
+show storm-control interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show storm-control interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show storm-control interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show storm-control interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface pon 0/1 to pon 0/1 ethernet 1/1 
+show storm-control interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 
+show storm-control interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show storm-control interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show storm-control interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show storm-control interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show storm-control interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show storm-control interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show storm-control interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show storm-control interface pon 0/1 to pon 0/1 pon 0/1 
+show storm-control interface pon 0/1 to pon 0/1 
+show storm-control interface pon 0/1 
+show storm-control interface 
+show vlan-swap interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show vlan-swap interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show vlan-swap interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show vlan-swap interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show vlan-swap interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show vlan-swap interface ethernet 1/1 ethernet 1/1 
+show vlan-swap interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show vlan-swap interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show vlan-swap interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show vlan-swap interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show vlan-swap interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show vlan-swap interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show vlan-swap interface ethernet 1/1 to ethernet 1/1 
+show vlan-swap interface ethernet 1/1 
+show vlan-swap interface 
+show white-list 

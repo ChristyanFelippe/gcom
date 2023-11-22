@@ -1,0 +1,629 @@
+aaa 
+access-list 1 deny 1.1.1.1 0 def-route time-range c 
+access-list 1 deny 1.1.1.1 0 def-route vlan-if 1 
+access-list 1 deny 1.1.1.1 0 def-route 
+access-list 1 deny 1.1.1.1 0 fragments 
+access-list 1 deny 1.1.1.1 0 
+access-list 1 deny 1.1.1.1 1.1.1.1 
+access-list 1 deny A:A::A:A/1 
+access-list 1 deny any 
+access-list 1 deny ipv6any 
+access-list 1 match-order auto 
+access-list 1 match-order config 
+access-list 1 permit 1.1.1.1 1.1.1.1 
+access-list 1 permit A:A::A:A/1 
+access-list extended 100 
+access-list extended c 
+access-list link 200 
+access-list link c 
+access-list standard 1 
+access-list standard c 
+cfm md 1 
+classif entry-mode long-key 
+deploy profile line 1 
+deploy profile rule 1 
+errp domain 0 
+errp fail-timer 3 
+errp hello-timer 1 
+errp preup-timer 0 
+errp 
+gnlink 
+igmp-snooping deny group all 
+igmp-snooping deny vlan c 
+igmp-snooping general-query source-ip 1.1.1.1 
+igmp-snooping host-aging-time 10 vlan c 
+igmp-snooping host-aging-time 10 
+igmp-snooping max-response-time 1 
+igmp-snooping mvr c-vlan c sp-vlan 1 
+igmp-snooping permit group all 
+igmp-snooping permit vlan c 
+igmp-snooping preview group-ip 1.1.1.1 vlan 1 interface ethernet 1/1 
+igmp-snooping preview permit-times 1 time-interval 180 time-once 60 time-reset 1800 
+igmp-snooping preview permit-times 1 time-interval 180 time-once 60 
+igmp-snooping preview permit-times 1 time-interval 180 time-reset 1800 time-once 60 
+igmp-snooping preview permit-times 1 time-interval 180 time-reset 1800 
+igmp-snooping preview permit-times 1 time-interval 180 
+igmp-snooping preview permit-times 1 time-once 60 time-interval 180 time-reset 1800 
+igmp-snooping preview permit-times 1 time-once 60 time-interval 180 
+igmp-snooping preview permit-times 1 time-once 60 time-reset 1800 time-interval 180 
+igmp-snooping preview permit-times 1 time-once 60 time-reset 1800 
+igmp-snooping preview permit-times 1 time-once 60 
+igmp-snooping preview permit-times 1 time-reset 1800 time-interval 180 time-once 60 
+igmp-snooping preview permit-times 1 time-reset 1800 time-interval 180 
+igmp-snooping preview permit-times 1 time-reset 1800 time-once 60 time-interval 180 
+igmp-snooping preview permit-times 1 time-reset 1800 time-once 60 
+igmp-snooping preview permit-times 1 time-reset 1800 
+igmp-snooping preview permit-times 1 
+igmp-snooping preview time-interval 180 permit-times 1 time-once 60 time-reset 1800 
+igmp-snooping preview time-interval 180 permit-times 1 time-once 60 
+igmp-snooping preview time-interval 180 permit-times 1 time-reset 1800 time-once 60 
+igmp-snooping preview time-interval 180 permit-times 1 time-reset 1800 
+igmp-snooping preview time-interval 180 permit-times 1 
+igmp-snooping preview time-interval 180 time-once 60 permit-times 1 time-reset 1800 
+igmp-snooping preview time-interval 180 time-once 60 permit-times 1 
+igmp-snooping preview time-interval 180 time-once 60 time-reset 1800 permit-times 1 
+igmp-snooping preview time-interval 180 time-once 60 time-reset 1800 
+igmp-snooping preview time-interval 180 time-once 60 
+igmp-snooping preview time-interval 180 time-reset 1800 permit-times 1 time-once 60 
+igmp-snooping preview time-interval 180 time-reset 1800 permit-times 1 
+igmp-snooping preview time-interval 180 time-reset 1800 time-once 60 permit-times 1 
+igmp-snooping preview time-interval 180 time-reset 1800 time-once 60 
+igmp-snooping preview time-interval 180 time-reset 1800 
+igmp-snooping preview time-interval 180 
+igmp-snooping preview time-once 60 permit-times 1 time-interval 180 time-reset 1800 
+igmp-snooping preview time-once 60 permit-times 1 time-interval 180 
+igmp-snooping preview time-once 60 permit-times 1 time-reset 1800 time-interval 180 
+igmp-snooping preview time-once 60 permit-times 1 time-reset 1800 
+igmp-snooping preview time-once 60 permit-times 1 
+igmp-snooping preview time-once 60 time-interval 180 permit-times 1 time-reset 1800 
+igmp-snooping preview time-once 60 time-interval 180 permit-times 1 
+igmp-snooping preview time-once 60 time-interval 180 time-reset 1800 permit-times 1 
+igmp-snooping preview time-once 60 time-interval 180 time-reset 1800 
+igmp-snooping preview time-once 60 time-interval 180 
+igmp-snooping preview time-once 60 time-reset 1800 permit-times 1 time-interval 180 
+igmp-snooping preview time-once 60 time-reset 1800 permit-times 1 
+igmp-snooping preview time-once 60 time-reset 1800 time-interval 180 permit-times 1 
+igmp-snooping preview time-once 60 time-reset 1800 time-interval 180 
+igmp-snooping preview time-once 60 time-reset 1800 
+igmp-snooping preview time-once 60 
+igmp-snooping preview time-reset 1800 permit-times 1 time-interval 180 time-once 60 
+igmp-snooping preview time-reset 1800 permit-times 1 time-interval 180 
+igmp-snooping preview time-reset 1800 permit-times 1 time-once 60 time-interval 180 
+igmp-snooping preview time-reset 1800 permit-times 1 time-once 60 
+igmp-snooping preview time-reset 1800 permit-times 1 
+igmp-snooping preview time-reset 1800 time-interval 180 permit-times 1 time-once 60 
+igmp-snooping preview time-reset 1800 time-interval 180 permit-times 1 
+igmp-snooping preview time-reset 1800 time-interval 180 time-once 60 permit-times 1 
+igmp-snooping preview time-reset 1800 time-interval 180 time-once 60 
+igmp-snooping preview time-reset 1800 time-interval 180 
+igmp-snooping preview time-reset 1800 time-once 60 permit-times 1 time-interval 180 
+igmp-snooping preview time-reset 1800 time-once 60 permit-times 1 
+igmp-snooping preview time-reset 1800 time-once 60 time-interval 180 permit-times 1 
+igmp-snooping preview time-reset 1800 time-once 60 time-interval 180 
+igmp-snooping preview time-reset 1800 time-once 60 
+igmp-snooping preview time-reset 1800 
+igmp-snooping preview 
+igmp-snooping profile 1 
+igmp-snooping querier version 2 
+igmp-snooping querier 
+igmp-snooping query-interval 1 
+igmp-snooping query-max-respond 1 
+igmp-snooping report-suppression 
+igmp-snooping route-port forward 
+igmp-snooping route-port vlan 1 interface channel-group 0 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 pon 0/1 pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 pon 0/1 to pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 to pon 0/1 pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 to pon 0/1 
+igmp-snooping route-port vlan 1 interface pon 0/1 
+igmp-snooping router-port-age 10 
+igmp-snooping router-port-age off 
+igmp-snooping router-port-age on 
+igmp-snooping specific-querier interval 0 
+igmp-snooping specific-querier times 1 
+igmp-snooping 
+interface ethernet 1/1 
+interface loopback-interface 0 
+interface meth-interface 0 
+interface pon 0/1 
+interface range ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 ethernet 1/1 ethernet 1/1 
+interface range ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+interface range ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 
+interface range pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+interface range pon 0/1 pon 0/1 pon 0/1 
+interface range pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+interface range pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+interface range pon 0/1 pon 0/1 to pon 0/1 
+interface range pon 0/1 pon 0/1 
+interface range pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+interface range pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+interface range pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+interface range pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+interface range pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+interface range pon 0/1 to pon 0/1 pon 0/1 
+interface range pon 0/1 to pon 0/1 
+interface range pon 0/1 
+interface supervlan-interface 1 
+interface vlan-interface 1 
+onu 1 
+onu ccc 1 classification disable com disable isolation disable mac disable multicast disable poe disable pon-status disable stp disable vlan disable vlan-cfg-mode 802.1q 
+onu ccc 1 classification disable com disable isolation disable mac disable multicast disable poe disable pon-status disable stp disable vlan disable vlan-cfg-mode ctc 
+onu ccc 1 classification disable com disable isolation disable mac disable multicast disable poe disable pon-status disable stp disable vlan disable 
+onu ccc 1 classification disable com disable isolation disable mac disable multicast disable poe disable pon-status disable stp disable vlan enable 
+onu ccc 1 classification disable com disable isolation disable mac disable multicast disable poe disable pon-status disable stp disable 
+onu ccc 1 classification disable com disable isolation disable mac disable multicast disable poe disable pon-status disable stp enable 
+onu ccc 1 classification disable com disable isolation disable mac disable multicast disable poe disable pon-status disable 
+onu ccc 1 classification disable com disable isolation disable mac disable multicast disable poe disable pon-status enable 
+onu ccc 1 classification disable com disable isolation disable mac disable multicast disable poe disable 
+onu ccc 1 classification disable com disable isolation disable mac disable multicast disable poe enable 
+onu ccc 1 classification disable com disable isolation disable mac disable multicast disable 
+onu ccc 1 classification disable com disable isolation disable mac disable multicast enable 
+onu ccc 1 classification disable com disable isolation disable mac disable 
+onu ccc 1 classification disable com disable isolation disable mac enable 
+onu ccc 1 classification disable com disable isolation disable 
+onu ccc 1 classification disable com disable isolation enable 
+onu ccc 1 classification disable com disable 
+onu ccc 1 classification disable com enable 
+onu ccc 1 classification disable 
+onu ccc 1 classification enable 
+onu ccc 1 
+onu cccccccc 
+onu del 1 
+onu del cccccccc 
+onu disable 
+onu enable 
+onu model ccc onu-image c filter-sw cccc slot-list c pon-list 0/1 
+onu model ccc onu-image c filter-sw cccc slot-list c 
+onu model ccc onu-image c filter-sw cccc 
+onu model ccc onu-image c sw cccc 
+onu model ccc onu-image c 
+onu other port-num 1 
+time-range c 
+vlan A:A:A:A:A:A 1 0 
+vlan A:A:A:A:A:A 
+vlan c 
+vlan frametype 
+vlan interface ethernet 1/1 1 1 0 
+vlan interface 
+vlan 
+show access-list config 1 
+show access-list config 100 
+show access-list config 200 
+show access-list config all 
+show access-list config name c 
+show access-list config statistic 
+show access-list runtime 1 
+show access-list runtime 100 
+show access-list runtime 200 
+show cfm cc database 
+show cfm cc 
+show cfm errors 
+show cfm ma 
+show cfm md 1 ma 1 
+show cfm md 1 
+show cfm md 
+show cfm mp local 
+show cfm mp remote 
+show errp control-vlan 1 
+show errp control-vlan 
+show errp domain 0 ring 0 
+show errp domain 0 
+show errp topology domain 0 ring 0 
+show errp topology domain 0 
+show errp topology summary domain 0 ring 0 
+show errp topology summary domain 0 
+show errp topology summary 
+show errp topology 
+show errp 
+show gnlink 
+show igmp-snooping mvr c-vlan 1 sp-vlan 1 
+show igmp-snooping mvr c-vlan 1 
+show igmp-snooping mvr sp-vlan 1 
+show igmp-snooping mvr 
+show igmp-snooping preview status 
+show igmp-snooping preview 
+show igmp-snooping profile c 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping profile interface pon 0/1 to pon 0/1 
+show igmp-snooping profile interface pon 0/1 
+show igmp-snooping profile interface 
+show igmp-snooping profile vlan 1 
+show igmp-snooping profile vlan 
+show igmp-snooping profile 
+show igmp-snooping record-host interface ethernet 1/1 
+show igmp-snooping record-host interface pon 0/1 
+show igmp-snooping record-host 
+show igmp-snooping router-dynamic 
+show igmp-snooping router-static interface channel-group 0 
+show igmp-snooping router-static interface ethernet 1/1 
+show igmp-snooping router-static vlan 1 
+show igmp-snooping router-static 
+show igmp-snooping statistics interface all 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 pon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 pon 0/1 pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface pon 0/1 ethernet 1/1 pon 0/1 
+show igmp-snooping statistics interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping statistics interface pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 pon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface pon 0/1 pon 0/1 pon 0/1 
+show igmp-snooping statistics interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping statistics interface pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface pon 0/1 pon 0/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 pon 0/1 
+show igmp-snooping statistics interface pon 0/1 to pon 0/1 
+show igmp-snooping statistics interface pon 0/1 
+show igmp-snooping statistics vlan c 
+show igmp-snooping 
+show interface brief ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 ethernet 1/1 pon 0/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 pon 0/1 ethernet 1/1 
+show interface brief ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 pon 0/1 pon 0/1 
+show interface brief ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface brief ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface brief ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 
+show interface brief pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 ethernet 1/1 ethernet 1/1 
+show interface brief pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 ethernet 1/1 pon 0/1 
+show interface brief pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface brief pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 ethernet 1/1 
+show interface brief pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 pon 0/1 ethernet 1/1 
+show interface brief pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 pon 0/1 pon 0/1 
+show interface brief pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface brief pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface brief pon 0/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 pon 0/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface brief pon 0/1 to pon 0/1 pon 0/1 
+show interface brief pon 0/1 to pon 0/1 
+show interface brief pon 0/1 
+show interface brief 
+show interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 ethernet 1/1 pon 0/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 pon 0/1 ethernet 1/1 
+show interface ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 pon 0/1 pon 0/1 
+show interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface ethernet 1/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 
+show interface pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 ethernet 1/1 ethernet 1/1 
+show interface pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 ethernet 1/1 pon 0/1 
+show interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 ethernet 1/1 
+show interface pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 pon 0/1 ethernet 1/1 
+show interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 pon 0/1 pon 0/1 
+show interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface pon 0/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 pon 0/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 to pon 0/1 ethernet 1/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show interface pon 0/1 to pon 0/1 pon 0/1 
+show interface pon 0/1 to pon 0/1 
+show interface pon 0/1 
+show interface sfp ethernet 1/1 
+show interface sfp pon 0/1 
+show interface sfp 
+show interface switchport backup 
+show interface 
+show onu mode slot 0 pon 1 
+show onu mode slot 0 
+show onu mode 
+show onu offline mac A:A:A:A:A:A 
+show onu offline 
+show onu other port-num 
+show time-range all 
+show time-range name c 
+show time-range statistic 
+show vlan 1 
+show vlan brief c 
+show vlan brief 
+show vlan 

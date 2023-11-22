@@ -1,0 +1,711 @@
+aaa 
+access-list 1 deny 1.1.1.1 0 fragments time-range c 
+access-list 1 deny 1.1.1.1 0 fragments 
+access-list 1 deny 1.1.1.1 0 
+access-list 1 deny 1.1.1.1 1.1.1.1 
+access-list 1 deny A:A::A:A/1 
+access-list 1 deny any 
+access-list 1 deny ipv6any 
+access-list 1 match-order auto 
+access-list 1 match-order config 
+access-list 1 permit 1.1.1.1 1.1.1.1 
+access-list 1 permit A:A::A:A/1 
+access-list extended 100 
+access-list extended c 
+access-list link 200 
+access-list link c 
+access-list standard 1 
+access-list standard c 
+cfm md 1 
+deploy profile alarm 
+deploy profile dba 
+deploy profile ds-traffic 
+deploy profile line 
+deploy profile multicast 
+deploy profile rule 
+deploy profile unique 
+deploy profile us-traffic 
+deploy profile vlan 
+deploy profile wifi 
+erps instance 0 
+erps 
+errp domain 0 
+errp fail-timer 3 
+errp hello-timer 1 
+errp preup-timer 0 
+errp 
+igmp-snooping deny group all 
+igmp-snooping deny vlan c 
+igmp-snooping general-query source-ip 1.1.1.1 
+igmp-snooping host-aging-time 10 vlan c 
+igmp-snooping host-aging-time 10 
+igmp-snooping max-response-time 1 
+igmp-snooping mvr c-vlan c sp-vlan 1 
+igmp-snooping permit group all 
+igmp-snooping permit vlan c 
+igmp-snooping preview group-ip 1.1.1.1 vlan 1 interface ethernet 1/1 
+igmp-snooping preview group-ip 1.1.1.1 vlan 1 interface gpon 0/1 
+igmp-snooping preview permit-times 1 time-interval 180 time-once 60 time-reset 1800 
+igmp-snooping preview permit-times 1 time-interval 180 time-once 60 
+igmp-snooping preview permit-times 1 time-interval 180 time-reset 1800 time-once 60 
+igmp-snooping preview permit-times 1 time-interval 180 time-reset 1800 
+igmp-snooping preview permit-times 1 time-interval 180 
+igmp-snooping preview permit-times 1 time-once 60 time-interval 180 time-reset 1800 
+igmp-snooping preview permit-times 1 time-once 60 time-interval 180 
+igmp-snooping preview permit-times 1 time-once 60 time-reset 1800 time-interval 180 
+igmp-snooping preview permit-times 1 time-once 60 time-reset 1800 
+igmp-snooping preview permit-times 1 time-once 60 
+igmp-snooping preview permit-times 1 time-reset 1800 time-interval 180 time-once 60 
+igmp-snooping preview permit-times 1 time-reset 1800 time-interval 180 
+igmp-snooping preview permit-times 1 time-reset 1800 time-once 60 time-interval 180 
+igmp-snooping preview permit-times 1 time-reset 1800 time-once 60 
+igmp-snooping preview permit-times 1 time-reset 1800 
+igmp-snooping preview permit-times 1 
+igmp-snooping preview time-interval 180 permit-times 1 time-once 60 time-reset 1800 
+igmp-snooping preview time-interval 180 permit-times 1 time-once 60 
+igmp-snooping preview time-interval 180 permit-times 1 time-reset 1800 time-once 60 
+igmp-snooping preview time-interval 180 permit-times 1 time-reset 1800 
+igmp-snooping preview time-interval 180 permit-times 1 
+igmp-snooping preview time-interval 180 time-once 60 permit-times 1 time-reset 1800 
+igmp-snooping preview time-interval 180 time-once 60 permit-times 1 
+igmp-snooping preview time-interval 180 time-once 60 time-reset 1800 permit-times 1 
+igmp-snooping preview time-interval 180 time-once 60 time-reset 1800 
+igmp-snooping preview time-interval 180 time-once 60 
+igmp-snooping preview time-interval 180 time-reset 1800 permit-times 1 time-once 60 
+igmp-snooping preview time-interval 180 time-reset 1800 permit-times 1 
+igmp-snooping preview time-interval 180 time-reset 1800 time-once 60 permit-times 1 
+igmp-snooping preview time-interval 180 time-reset 1800 time-once 60 
+igmp-snooping preview time-interval 180 time-reset 1800 
+igmp-snooping preview time-interval 180 
+igmp-snooping preview time-once 60 permit-times 1 time-interval 180 time-reset 1800 
+igmp-snooping preview time-once 60 permit-times 1 time-interval 180 
+igmp-snooping preview time-once 60 permit-times 1 time-reset 1800 time-interval 180 
+igmp-snooping preview time-once 60 permit-times 1 time-reset 1800 
+igmp-snooping preview time-once 60 permit-times 1 
+igmp-snooping preview time-once 60 time-interval 180 permit-times 1 time-reset 1800 
+igmp-snooping preview time-once 60 time-interval 180 permit-times 1 
+igmp-snooping preview time-once 60 time-interval 180 time-reset 1800 permit-times 1 
+igmp-snooping preview time-once 60 time-interval 180 time-reset 1800 
+igmp-snooping preview time-once 60 time-interval 180 
+igmp-snooping preview time-once 60 time-reset 1800 permit-times 1 time-interval 180 
+igmp-snooping preview time-once 60 time-reset 1800 permit-times 1 
+igmp-snooping preview time-once 60 time-reset 1800 time-interval 180 permit-times 1 
+igmp-snooping preview time-once 60 time-reset 1800 time-interval 180 
+igmp-snooping preview time-once 60 time-reset 1800 
+igmp-snooping preview time-once 60 
+igmp-snooping preview time-reset 1800 permit-times 1 time-interval 180 time-once 60 
+igmp-snooping preview time-reset 1800 permit-times 1 time-interval 180 
+igmp-snooping preview time-reset 1800 permit-times 1 time-once 60 time-interval 180 
+igmp-snooping preview time-reset 1800 permit-times 1 time-once 60 
+igmp-snooping preview time-reset 1800 permit-times 1 
+igmp-snooping preview time-reset 1800 time-interval 180 permit-times 1 time-once 60 
+igmp-snooping preview time-reset 1800 time-interval 180 permit-times 1 
+igmp-snooping preview time-reset 1800 time-interval 180 time-once 60 permit-times 1 
+igmp-snooping preview time-reset 1800 time-interval 180 time-once 60 
+igmp-snooping preview time-reset 1800 time-interval 180 
+igmp-snooping preview time-reset 1800 time-once 60 permit-times 1 time-interval 180 
+igmp-snooping preview time-reset 1800 time-once 60 permit-times 1 
+igmp-snooping preview time-reset 1800 time-once 60 time-interval 180 permit-times 1 
+igmp-snooping preview time-reset 1800 time-once 60 time-interval 180 
+igmp-snooping preview time-reset 1800 time-once 60 
+igmp-snooping preview time-reset 1800 
+igmp-snooping preview 
+igmp-snooping profile 1 
+igmp-snooping querier version 2 
+igmp-snooping querier 
+igmp-snooping querier-vlan c 
+igmp-snooping query-interval 1 
+igmp-snooping query-max-respond 1 
+igmp-snooping report-suppression 
+igmp-snooping route-port forward 
+igmp-snooping route-port vlan 1 interface all 
+igmp-snooping route-port vlan 1 interface channel-group 0 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 to ethernet 1/1 
+igmp-snooping route-port vlan 1 interface ethernet 1/1 
+igmp-snooping router-port-age 10 
+igmp-snooping router-port-age off 
+igmp-snooping router-port-age on 
+igmp-snooping 
+interface e1/1 
+interface ethernet 1/1 
+interface gpon 0/1 
+interface loopback-interface 0 
+interface meth-interface 0 
+interface range ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 ethernet 1/1 ethernet 1/1 
+interface range ethernet 1/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+interface range ethernet 1/1 ethernet 1/1 gpon 0/1 
+interface range ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+interface range ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+interface range ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+interface range ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 ethernet 1/1 
+interface range ethernet 1/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 gpon 0/1 ethernet 1/1 
+interface range ethernet 1/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+interface range ethernet 1/1 gpon 0/1 gpon 0/1 
+interface range ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+interface range ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+interface range ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+interface range ethernet 1/1 gpon 0/1 to gpon 0/1 
+interface range ethernet 1/1 gpon 0/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 gpon 0/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 gpon 0/1 ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+interface range ethernet 1/1 to ethernet 1/1 gpon 0/1 gpon 0/1 
+interface range ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+interface range ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+interface range ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+interface range ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+interface range ethernet 1/1 to ethernet 1/1 gpon 0/1 
+interface range ethernet 1/1 to ethernet 1/1 
+interface range ethernet 1/1 
+interface range gpon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range gpon 0/1 ethernet 1/1 ethernet 1/1 
+interface range gpon 0/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+interface range gpon 0/1 ethernet 1/1 gpon 0/1 
+interface range gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+interface range gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+interface range gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+interface range gpon 0/1 ethernet 1/1 to ethernet 1/1 
+interface range gpon 0/1 ethernet 1/1 
+interface range gpon 0/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+interface range gpon 0/1 gpon 0/1 ethernet 1/1 
+interface range gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+interface range gpon 0/1 gpon 0/1 gpon 0/1 
+interface range gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+interface range gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+interface range gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+interface range gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+interface range gpon 0/1 gpon 0/1 to gpon 0/1 
+interface range gpon 0/1 gpon 0/1 
+interface range gpon 0/1 to gpon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range gpon 0/1 to gpon 0/1 ethernet 1/1 ethernet 1/1 
+interface range gpon 0/1 to gpon 0/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+interface range gpon 0/1 to gpon 0/1 ethernet 1/1 gpon 0/1 
+interface range gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+interface range gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+interface range gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+interface range gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+interface range gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+interface range gpon 0/1 to gpon 0/1 ethernet 1/1 
+interface range gpon 0/1 to gpon 0/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+interface range gpon 0/1 to gpon 0/1 gpon 0/1 ethernet 1/1 
+interface range gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+interface range gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 
+interface range gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+interface range gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+interface range gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+interface range gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+interface range gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+interface range gpon 0/1 to gpon 0/1 gpon 0/1 
+interface range gpon 0/1 to gpon 0/1 
+interface range gpon 0/1 
+interface supervlan-interface 1 
+interface vlan-interface 1 
+ip def cpu vlan c 
+ip def cpu 
+ip icmp mask-reply 
+ip multicast-routing 
+ip pool c 
+ip prefix-list c deny 1.1.1.1 0 ge 1 le 1 
+ip prefix-list c deny 1.1.1.1 0 ge 1 
+ip prefix-list c deny 1.1.1.1 0 
+ip prefix-list c permit 1.1.1.1 0 
+ip prefix-list default entry-rule deny 
+ip prefix-list default entry-rule permit 
+ip route 1.1.1.1 1.1.1.1 1.1.1.1 
+mroute igmp 
+mroute pim 
+router id 1.1.1.1 
+router ospf 0 router-id 1.1.1.1 
+router ospf 0 
+router ospf router-id 1.1.1.1 0 
+router ospf router-id 1.1.1.1 
+router ospf 
+router ospfv3 
+router rip 
+time-range c 
+vlan c 
+show access-list config 1 
+show access-list config 100 
+show access-list config 200 
+show access-list config all 
+show access-list config name c 
+show access-list config statistic 
+show access-list runtime 1 
+show access-list runtime 100 
+show access-list runtime 200 
+show cfm cc database 
+show cfm cc 
+show cfm errors 
+show cfm ma 
+show cfm md 1 ma 1 
+show cfm md 1 
+show cfm md 
+show cfm mp local 
+show cfm mp remote 
+show deploy alarm 0 
+show deploy alarm brief 1 
+show deploy alarm brief all 
+show deploy alarm name c 
+show deploy dba 0 
+show deploy dba brief 1 
+show deploy dba brief all 
+show deploy dba name c 
+show deploy ds-traffic 0 
+show deploy ds-traffic brief 1 
+show deploy ds-traffic brief all 
+show deploy ds-traffic name c 
+show deploy line 0 
+show deploy line brief 1 
+show deploy line brief all 
+show deploy line name c 
+show deploy multicast 0 
+show deploy multicast brief 1 
+show deploy multicast brief all 
+show deploy multicast name c 
+show deploy rule 0/1/1 
+show deploy rule brief count interface gpon 0/1 
+show deploy rule brief count interface gpon all 
+show deploy rule brief interface gpon 0/1 
+show deploy rule brief interface gpon all 
+show deploy rule brief inused interface gpon 0/1 
+show deploy rule brief inused interface gpon all 
+show deploy rule brief inused loid c 
+show deploy rule brief inused sn hex 0000000000000000 
+show deploy rule brief inused sn string-hex AAAA-AAAAAAAA 
+show deploy rule brief loid c 
+show deploy rule brief sn hex 0000000000000000 
+show deploy rule brief sn string-hex AAAA-AAAAAAAA 
+show deploy rule brief unused interface gpon 0/1 
+show deploy rule brief unused interface gpon all 
+show deploy rule brief unused loid c 
+show deploy rule brief unused sn hex 0000000000000000 
+show deploy rule brief unused sn string-hex AAAA-AAAAAAAA 
+show deploy rule name c 
+show deploy unique 0/1/1 
+show deploy unique brief 0/1/1 
+show deploy unique brief all 
+show deploy unique name c 
+show deploy us-traffic 0 
+show deploy us-traffic brief 1 
+show deploy us-traffic brief all 
+show deploy us-traffic name c 
+show deploy vlan 0 
+show deploy vlan brief 1 
+show deploy vlan brief all 
+show deploy vlan name c 
+show deploy wifi 0 
+show deploy wifi brief 1 
+show deploy wifi brief all 
+show deploy wifi name 1 
+show erps control-vlan 1 
+show erps control-vlan 
+show erps instance 0 statistics 
+show erps instance 0 
+show erps statistics 
+show erps 
+show errp control-vlan 1 
+show errp control-vlan 
+show errp domain 0 ring 0 
+show errp domain 0 
+show errp topology domain 0 ring 0 
+show errp topology domain 0 
+show errp topology summary domain 0 ring 0 
+show errp topology summary domain 0 
+show errp topology summary 
+show errp topology 
+show errp 
+show igmp-snooping mvr c-vlan 1 sp-vlan 1 
+show igmp-snooping mvr c-vlan 1 
+show igmp-snooping mvr sp-vlan 1 
+show igmp-snooping mvr 
+show igmp-snooping preview status 
+show igmp-snooping preview 
+show igmp-snooping profile c 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 to ethernet 1/1 
+show igmp-snooping profile interface ethernet 1/1 
+show igmp-snooping profile interface 
+show igmp-snooping profile vlan 1 
+show igmp-snooping profile vlan 
+show igmp-snooping profile 
+show igmp-snooping record-host interface ethernet 1/1 
+show igmp-snooping record-host interface gpon 0/1 
+show igmp-snooping record-host 
+show igmp-snooping router-dynamic 
+show igmp-snooping router-static interface channel-group 0 
+show igmp-snooping router-static interface ethernet 1/1 
+show igmp-snooping router-static vlan 1 
+show igmp-snooping router-static 
+show igmp-snooping statistics interface all 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 gpon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 gpon 0/1 gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 gpon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 gpon 0/1 gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show igmp-snooping statistics interface ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 ethernet 1/1 gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 gpon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 gpon 0/1 gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 ethernet 1/1 gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 gpon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 to gpon 0/1 
+show igmp-snooping statistics interface gpon 0/1 
+show igmp-snooping statistics vlan c 
+show igmp-snooping 
+show interface brief ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface brief ethernet 1/1 ethernet 1/1 gpon 0/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 gpon 0/1 ethernet 1/1 
+show interface brief ethernet 1/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface brief ethernet 1/1 gpon 0/1 gpon 0/1 
+show interface brief ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show interface brief ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface brief ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show interface brief ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface brief ethernet 1/1 gpon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 gpon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 gpon 0/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 gpon 0/1 gpon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show interface brief ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show interface brief ethernet 1/1 to ethernet 1/1 
+show interface brief ethernet 1/1 
+show interface brief gpon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief gpon 0/1 ethernet 1/1 ethernet 1/1 
+show interface brief gpon 0/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface brief gpon 0/1 ethernet 1/1 gpon 0/1 
+show interface brief gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface brief gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show interface brief gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief gpon 0/1 ethernet 1/1 
+show interface brief gpon 0/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief gpon 0/1 gpon 0/1 ethernet 1/1 
+show interface brief gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface brief gpon 0/1 gpon 0/1 gpon 0/1 
+show interface brief gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show interface brief gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface brief gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show interface brief gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface brief gpon 0/1 gpon 0/1 
+show interface brief gpon 0/1 to gpon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief gpon 0/1 to gpon 0/1 ethernet 1/1 ethernet 1/1 
+show interface brief gpon 0/1 to gpon 0/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface brief gpon 0/1 to gpon 0/1 ethernet 1/1 gpon 0/1 
+show interface brief gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface brief gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface brief gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface brief gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show interface brief gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief gpon 0/1 to gpon 0/1 ethernet 1/1 
+show interface brief gpon 0/1 to gpon 0/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief gpon 0/1 to gpon 0/1 gpon 0/1 ethernet 1/1 
+show interface brief gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface brief gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 
+show interface brief gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface brief gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show interface brief gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface brief gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show interface brief gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface brief gpon 0/1 to gpon 0/1 gpon 0/1 
+show interface brief gpon 0/1 to gpon 0/1 
+show interface brief gpon 0/1 
+show interface brief 
+show interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface ethernet 1/1 ethernet 1/1 gpon 0/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 gpon 0/1 ethernet 1/1 
+show interface ethernet 1/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface ethernet 1/1 gpon 0/1 gpon 0/1 
+show interface ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show interface ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show interface ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface ethernet 1/1 gpon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 gpon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 gpon 0/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 gpon 0/1 gpon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show interface ethernet 1/1 to ethernet 1/1 
+show interface ethernet 1/1 
+show interface gpon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface gpon 0/1 ethernet 1/1 ethernet 1/1 
+show interface gpon 0/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface gpon 0/1 ethernet 1/1 gpon 0/1 
+show interface gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show interface gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface gpon 0/1 ethernet 1/1 
+show interface gpon 0/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface gpon 0/1 gpon 0/1 ethernet 1/1 
+show interface gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface gpon 0/1 gpon 0/1 gpon 0/1 
+show interface gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show interface gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show interface gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface gpon 0/1 gpon 0/1 
+show interface gpon 0/1 to gpon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface gpon 0/1 to gpon 0/1 ethernet 1/1 ethernet 1/1 
+show interface gpon 0/1 to gpon 0/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface gpon 0/1 to gpon 0/1 ethernet 1/1 gpon 0/1 
+show interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface gpon 0/1 to gpon 0/1 ethernet 1/1 
+show interface gpon 0/1 to gpon 0/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface gpon 0/1 to gpon 0/1 gpon 0/1 ethernet 1/1 
+show interface gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 
+show interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show interface gpon 0/1 to gpon 0/1 gpon 0/1 
+show interface gpon 0/1 to gpon 0/1 
+show interface gpon 0/1 
+show interface sfp ethernet 1/1 gpon 0/1 
+show interface sfp ethernet 1/1 
+show interface sfp gpon 0/1 ethernet 1/1 
+show interface sfp gpon 0/1 
+show interface sfp 
+show interface switchport backup 
+show interface 
+show ip def cpu 
+show ip fdb 1.1.1.1 1.1.1.1 
+show ip fdb 1.1.1.1 
+show ip fdb 
+show ip icmp mask-reply 
+show ip icmp unreachable supervlan-interface 1 
+show ip icmp unreachable vlan-interface 1 
+show ip icmp unreachable 
+show ip igmp groups 1.1.1.1 
+show ip igmp groups dynamic 
+show ip igmp groups static 
+show ip igmp groups 
+show ip igmp interface 
+show ip igmp ssm-mapping 1.1.1.1 
+show ip igmp ssm-mapping 
+show ip interface loopback-interface 0 
+show ip interface loopback-interface 
+show ip interface meth-interface 0 
+show ip interface 
+show ip lpm 1.1.1.1 
+show ip lpm 
+show ip mroute 1.1.1.1 dynamic 
+show ip mroute 1.1.1.1 static 
+show ip mroute 1.1.1.1 
+show ip mroute 
+show ip ospf 0 area 1.1.1.1 
+show ip ospf 0 area 0 
+show ip ospf 0 border-routers 
+show ip ospf 0 cumulative 
+show ip ospf 0 database adv-router 1.1.1.1 lsa-type 1 
+show ip ospf 0 database adv-router 1.1.1.1 
+show ip ospf 0 database 
+show ip ospf 0 neighbor 
+show ip ospf 0 request-list 
+show ip ospf 0 retrans-list 
+show ip ospf 0 virtual-link 
+show ip ospf 0 
+show ip ospf distribute-list 
+show ip ospf error 
+show ip ospf 
+show ip pim bsr 
+show ip pim interface 
+show ip pim neighbor 
+show ip pim rp-info 1.1.1.1 
+show ip pim rp-info 
+show ip pim ssm range 
+show ip pool c 0 
+show ip pool c 
+show ip pool 
+show ip pool-brief 
+show ip prefix-list c 
+show ip prefix-list 
+show ip rip interface loopback-interface 0 
+show ip rip interface 
+show ip rip 
+show ip route 1.1.1.1 1.1.1.1 
+show ip route 1.1.1.1 
+show ip route ecmp 1.1.1.1 1.1.1.1 
+show ip route ecmp 1.1.1.1 
+show ip route ecmp static 
+show ip route ecmp 
+show ip route 
+show router id 
+show time-range all 
+show time-range name c 
+show time-range statistic 
+show vlan 1 
+show vlan brief c 
+show vlan brief 
+show vlan 

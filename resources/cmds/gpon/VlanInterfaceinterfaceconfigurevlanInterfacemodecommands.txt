@@ -1,0 +1,649 @@
+bfd demand off 
+bfd demand on 
+bfd detect-multiplier 3 
+bfd min-receive-interval 200 
+bfd min-transmit-interval 200 
+bfd session init-mode active 
+bfd session init-mode passive 
+clear bfd session statistics 
+description c 
+dhcp option60 equals ascii c gateway 1.1.1.1 dhcp-server 1 backup-server 1 server-reply ascii c 
+dhcp option60 equals ascii c gateway 1.1.1.1 dhcp-server 1 backup-server 1 server-reply hexadecimal c 
+dhcp option60 equals ascii c gateway 1.1.1.1 dhcp-server 1 backup-server 1 
+dhcp option60 equals ascii c gateway 1.1.1.1 dhcp-server 1 server-reply ascii c 
+dhcp option60 equals ascii c gateway 1.1.1.1 dhcp-server 1 server-reply hexadecimal c 
+dhcp option60 equals ascii c gateway 1.1.1.1 dhcp-server 1 
+dhcp option60 equals ascii c gateway 1.1.1.1 server-reply ascii c 
+dhcp option60 equals ascii c gateway 1.1.1.1 server-reply hexadecimal c 
+dhcp option60 equals ascii c gateway 1.1.1.1 
+dhcp option60 equals hexadecimal c gateway 1.1.1.1 dhcp-server 1 backup-server 1 server-reply ascii c 
+dhcp option60 equals hexadecimal c gateway 1.1.1.1 dhcp-server 1 backup-server 1 server-reply hexadecimal c 
+dhcp option60 equals hexadecimal c gateway 1.1.1.1 dhcp-server 1 backup-server 1 
+dhcp option60 equals hexadecimal c gateway 1.1.1.1 dhcp-server 1 server-reply ascii c 
+dhcp option60 equals hexadecimal c gateway 1.1.1.1 dhcp-server 1 server-reply hexadecimal c 
+dhcp option60 equals hexadecimal c gateway 1.1.1.1 dhcp-server 1 
+dhcp option60 equals hexadecimal c gateway 1.1.1.1 server-reply ascii c 
+dhcp option60 equals hexadecimal c gateway 1.1.1.1 server-reply hexadecimal c 
+dhcp option60 equals hexadecimal c gateway 1.1.1.1 
+dhcp option60 mismatch gateway 1.1.1.1 dhcp-server 1 backup-server 1 server-reply ascii c 
+dhcp option60 mismatch gateway 1.1.1.1 dhcp-server 1 backup-server 1 server-reply hexadecimal c 
+dhcp option60 mismatch gateway 1.1.1.1 dhcp-server 1 backup-server 1 
+dhcp option60 mismatch gateway 1.1.1.1 dhcp-server 1 server-reply ascii c 
+dhcp option60 mismatch gateway 1.1.1.1 dhcp-server 1 server-reply hexadecimal c 
+dhcp option60 mismatch gateway 1.1.1.1 dhcp-server 1 
+dhcp option60 mismatch gateway 1.1.1.1 server-reply ascii c 
+dhcp option60 mismatch gateway 1.1.1.1 server-reply hexadecimal c 
+dhcp option60 mismatch gateway 1.1.1.1 
+dhcp option60 starts-with ascii c gateway 1.1.1.1 dhcp-server 1 backup-server 1 server-reply ascii c 
+dhcp option60 starts-with ascii c gateway 1.1.1.1 dhcp-server 1 backup-server 1 server-reply hexadecimal c 
+dhcp option60 starts-with ascii c gateway 1.1.1.1 dhcp-server 1 backup-server 1 
+dhcp option60 starts-with ascii c gateway 1.1.1.1 dhcp-server 1 server-reply ascii c 
+dhcp option60 starts-with ascii c gateway 1.1.1.1 dhcp-server 1 server-reply hexadecimal c 
+dhcp option60 starts-with ascii c gateway 1.1.1.1 dhcp-server 1 
+dhcp option60 starts-with ascii c gateway 1.1.1.1 server-reply ascii c 
+dhcp option60 starts-with ascii c gateway 1.1.1.1 server-reply hexadecimal c 
+dhcp option60 starts-with ascii c gateway 1.1.1.1 
+dhcp option60 starts-with hexadecimal c gateway 1.1.1.1 dhcp-server 1 backup-server 1 server-reply ascii c 
+dhcp option60 starts-with hexadecimal c gateway 1.1.1.1 dhcp-server 1 backup-server 1 server-reply hexadecimal c 
+dhcp option60 starts-with hexadecimal c gateway 1.1.1.1 dhcp-server 1 backup-server 1 
+dhcp option60 starts-with hexadecimal c gateway 1.1.1.1 dhcp-server 1 server-reply ascii c 
+dhcp option60 starts-with hexadecimal c gateway 1.1.1.1 dhcp-server 1 server-reply hexadecimal c 
+dhcp option60 starts-with hexadecimal c gateway 1.1.1.1 dhcp-server 1 
+dhcp option60 starts-with hexadecimal c gateway 1.1.1.1 server-reply ascii c 
+dhcp option60 starts-with hexadecimal c gateway 1.1.1.1 server-reply hexadecimal c 
+dhcp option60 starts-with hexadecimal c gateway 1.1.1.1 
+dhcp-server 1 
+dhcpv6-relay server-address A:A::A:A interface vlan-interface 1 
+dhcpv6-relay server-address A:A::A:A 
+dhcpv6-server apply pool 1 preference 0 rapid-commit 
+dhcpv6-server apply pool 1 preference 0 
+dhcpv6-server apply pool 1 rapid-commit preference 0 
+dhcpv6-server apply pool 1 rapid-commit 
+dhcpv6-server apply pool 1 
+end 
+exit 
+igmp-proxy 
+ip address 1.1.1.1 1.1.1.1 override 
+ip address 1.1.1.1 1.1.1.1 
+ip address primary 1.1.1.1 
+ip address range 1.1.1.1 1.1.1.1 
+ip icmp unreachable 
+ip igmp access-group 1 all 
+ip igmp access-group 1 ethernet 1/1 gpon 0/1 
+ip igmp access-group 1 ethernet 1/1 
+ip igmp create-group 1.1.1.1 source * 
+ip igmp create-group 1.1.1.1 source 1.1.1.1 
+ip igmp fast-leave 
+ip igmp last-member-query-interval 1 
+ip igmp limit-group 0 
+ip igmp query-interval 15 
+ip igmp query-max-response-time 1 
+ip igmp robustness-varible 2 
+ip igmp ssm-mapping 
+ip igmp version 1 
+ip igmp 
+ip ospf authentication-key c 
+ip ospf bfd 
+ip ospf cost 1 
+ip ospf dead-interval 1 
+ip ospf distribute-list gateway c in 
+ip ospf distribute-list prefix-list c out 
+ip ospf hello-interval 1 
+ip ospf message-digest-key 1 md5 c 
+ip ospf neighbor 1.1.1.1 priority 0 
+ip ospf neighbor 1.1.1.1 
+ip ospf network broadcast 
+ip ospf network non-broadcast 
+ip ospf network point-to-multipoint 
+ip ospf network point-to-point 
+ip ospf passive-interface 
+ip ospf retransmit-interval 1 
+ip ospf transmit-delay 1 
+ip pim bsr-border 
+ip pim dense-mode 
+ip pim neighbor-limit 0 
+ip pim neighbor-policy 1 
+ip pim query-interval 1 
+ip pim sparse-mode 
+ip pool c 
+ip rip authentication md5 key-id 1 key-string c 
+ip rip authentication simple c 
+ip rip input 
+ip rip metricin 0 
+ip rip metricout 1 
+ip rip output 
+ip rip split 
+ip rip version 1 
+ip rip version 2 bcast 
+ip rip version 2 mcast 
+ip rip version 2 
+ip rip work 
+ip vrrp 1 1.1.1.1 
+ipv6 address A:A::A:A link-local 
+ipv6 address A:A::A:A/1 eui-64 
+ipv6 address A:A::A:A/1 
+ipv6 address autoconfig 
+ipv6 nd dad attempts 0 
+ipv6 nd ns retrans-time 1 
+ipv6 nd ra halt 
+ipv6 nd ra hop-limit 0 
+ipv6 nd ra interval 4 3 
+ipv6 nd ra prefix c A:A::A:A/1 0 0 no-autoconfig off-link 
+ipv6 nd ra prefix c A:A::A:A/1 0 0 no-autoconfig 
+ipv6 nd ra prefix c A:A::A:A/1 0 0 off-link no-autoconfig 
+ipv6 nd ra prefix c A:A::A:A/1 0 0 off-link 
+ipv6 nd ra prefix c A:A::A:A/1 0 0 
+ipv6 nd ra prefix c A:A::A:A/1 no-autoconfig off-link 
+ipv6 nd ra prefix c A:A::A:A/1 no-autoconfig 
+ipv6 nd ra prefix c A:A::A:A/1 off-link no-autoconfig 
+ipv6 nd ra prefix c A:A::A:A/1 off-link 
+ipv6 nd ra prefix c A:A::A:A/1 
+ipv6 nd ra router-lifetime 0 
+ipv6 nd reachable-time 1 
+ipv6 neighbors max-learning-num 1 
+ipv6 ospf cost 1 
+ipv6 ospf dead-interval 1 
+ipv6 ospf hello-interval 1 
+ipv6 ospf network broadcast 
+ipv6 ospf network non-broadcast 
+ipv6 ospf network point-to-multipoint 
+ipv6 ospf network point-to-point 
+ipv6 ospf priority 0 
+ipv6 ospf retransmit-interval 1 
+ipv6 ospf transmit-delay 1 
+ipv6 pathmtu 1280 
+no bfd detect-multiplier 
+no bfd min-receive-interval 
+no bfd min-transmit-interval 
+no bfd session init-mode 
+no description 
+no dhcp option60 all 
+no dhcp option60 equals ascii c 
+no dhcp option60 equals hexadecimal c 
+no dhcp option60 mismatch 
+no dhcp option60 starts-with ascii c 
+no dhcp option60 starts-with hexadecimal c 
+no dhcp-server 1 
+no dhcpv6-relay server-address A:A::A:A 
+no dhcpv6-relay 
+no dhcpv6-server 
+no igmp-proxy 
+no ip address 1.1.1.1 1.1.1.1 
+no ip address range 1.1.1.1 1.1.1.1 
+no ip address range 
+no ip address 
+no ip icmp unreachable 
+no ip igmp access-group all 
+no ip igmp access-group ethernet 1/1 gpon 0/1 
+no ip igmp access-group ethernet 1/1 
+no ip igmp create-group 1.1.1.1 source * 
+no ip igmp create-group 1.1.1.1 source 1.1.1.1 
+no ip igmp fast-leave 
+no ip igmp last-member-query-interval 
+no ip igmp limit-group 
+no ip igmp query-interval 
+no ip igmp query-max-response-time 
+no ip igmp robustness-varible 
+no ip igmp ssm-mapping 
+no ip igmp static-group all 
+no ip igmp version 
+no ip igmp 
+no ip ospf authentication-key 
+no ip ospf bfd 
+no ip ospf cost 
+no ip ospf dead-interval 
+no ip ospf distribute-list gateway in 
+no ip ospf distribute-list prefix-list out 
+no ip ospf hello-interval 
+no ip ospf message-digest-key 
+no ip ospf neighbor 1.1.1.1 
+no ip ospf network 
+no ip ospf passive-interface 
+no ip ospf priority 
+no ip ospf retransmit-interval 
+no ip ospf transmit-delay 
+no ip pim bsr-border 
+no ip pim dense-mode 
+no ip pim neighbor-limit 
+no ip pim neighbor-policy 
+no ip pim query-interval 
+no ip pim sparse-mode 
+no ip rip authentication 
+no ip rip input 
+no ip rip metricin 
+no ip rip metricout 
+no ip rip output 
+no ip rip split 
+no ip rip version 
+no ip rip work 
+no ip vrrp 1 1.1.1.1 
+no ip vrrp 1 
+no ip vrrp all 
+no ipv6 address A:A::A:A link-local 
+no ipv6 address A:A::A:A/1 eui-64 
+no ipv6 address A:A::A:A/1 
+no ipv6 address autoconfig 
+no ipv6 nd dad attempts 
+no ipv6 nd ns retrans-time 
+no ipv6 nd ra halt 
+no ipv6 nd ra hop-limit 
+no ipv6 nd ra interval 
+no ipv6 nd ra prefix c 
+no ipv6 nd ra router-lifetime 
+no ipv6 nd reachable-time 
+no ipv6 neighbors max-learning-num 
+no ipv6 ospf cost 
+no ipv6 ospf dead-interval 
+no ipv6 ospf hello-interval 
+no ipv6 ospf network 
+no ipv6 ospf priority 
+no ipv6 ospf retransmit-interval 
+no ipv6 ospf transmit-delay 
+no ipv6 pathmtu 
+no ntp broadcast 
+no ntp disable 
+no ntp multicast 
+no shutdown 
+no urpf 
+no vrrp preempt 1 
+no vrrp priority 1 
+no vrrp timer 1 
+no vrrp track 1 all 
+no vrrp track 1 supervlan-if 1 
+no vrrp track 1 vlan-if 1 
+ntp broadcast client 
+ntp broadcast server authentication-keyid 1 
+ntp broadcast server 
+ntp disable 
+ntp multicast client 
+ntp multicast server authentication-keyid 1 
+ntp multicast server 
+shutdown 
+urpf loose 
+urpf strict 
+vrrp preempt 1 delay 0 
+vrrp preempt 1 
+vrrp priority 1 1 
+vrrp timer 1 1 
+vrrp track 1 supervlan-if 1 reduced 1 
+vrrp track 1 supervlan-if 1 
+vrrp track 1 vlan-if 1 reduced 1 
+vrrp track 1 vlan-if 1 
+show bfd interface verbose 
+show bfd interface 
+show bfd session verbose 
+show bfd session 
+show description interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show description interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show description interface ethernet 1/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show description interface ethernet 1/1 ethernet 1/1 gpon 0/1 
+show description interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show description interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show description interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show description interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show description interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show description interface ethernet 1/1 ethernet 1/1 
+show description interface ethernet 1/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show description interface ethernet 1/1 gpon 0/1 ethernet 1/1 
+show description interface ethernet 1/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show description interface ethernet 1/1 gpon 0/1 gpon 0/1 
+show description interface ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show description interface ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show description interface ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show description interface ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show description interface ethernet 1/1 gpon 0/1 to gpon 0/1 
+show description interface ethernet 1/1 gpon 0/1 
+show description interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show description interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show description interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show description interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 gpon 0/1 
+show description interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show description interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show description interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show description interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show description interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show description interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show description interface ethernet 1/1 to ethernet 1/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show description interface ethernet 1/1 to ethernet 1/1 gpon 0/1 ethernet 1/1 
+show description interface ethernet 1/1 to ethernet 1/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show description interface ethernet 1/1 to ethernet 1/1 gpon 0/1 gpon 0/1 
+show description interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show description interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show description interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show description interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show description interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show description interface ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show description interface ethernet 1/1 to ethernet 1/1 
+show description interface ethernet 1/1 
+show description interface gpon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show description interface gpon 0/1 ethernet 1/1 ethernet 1/1 
+show description interface gpon 0/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show description interface gpon 0/1 ethernet 1/1 gpon 0/1 
+show description interface gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show description interface gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show description interface gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show description interface gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show description interface gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show description interface gpon 0/1 ethernet 1/1 
+show description interface gpon 0/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show description interface gpon 0/1 gpon 0/1 ethernet 1/1 
+show description interface gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show description interface gpon 0/1 gpon 0/1 gpon 0/1 
+show description interface gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show description interface gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show description interface gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show description interface gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show description interface gpon 0/1 gpon 0/1 to gpon 0/1 
+show description interface gpon 0/1 gpon 0/1 
+show description interface gpon 0/1 to gpon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show description interface gpon 0/1 to gpon 0/1 ethernet 1/1 ethernet 1/1 
+show description interface gpon 0/1 to gpon 0/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show description interface gpon 0/1 to gpon 0/1 ethernet 1/1 gpon 0/1 
+show description interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show description interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show description interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show description interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show description interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show description interface gpon 0/1 to gpon 0/1 ethernet 1/1 
+show description interface gpon 0/1 to gpon 0/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show description interface gpon 0/1 to gpon 0/1 gpon 0/1 ethernet 1/1 
+show description interface gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show description interface gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 
+show description interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show description interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show description interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show description interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show description interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show description interface gpon 0/1 to gpon 0/1 gpon 0/1 
+show description interface gpon 0/1 to gpon 0/1 
+show description interface gpon 0/1 
+show description interface 
+show dhcp anti-attack interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 ethernet 1/1 gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 gpon 0/1 ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 gpon 0/1 gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 gpon 0/1 ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 gpon 0/1 gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show dhcp anti-attack interface ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 ethernet 1/1 ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 ethernet 1/1 gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 gpon 0/1 ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 gpon 0/1 gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 ethernet 1/1 ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 ethernet 1/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 ethernet 1/1 gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 gpon 0/1 ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 to ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 ethernet 1/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 to gpon 0/1 
+show dhcp anti-attack interface gpon 0/1 
+show dhcp anti-attack interface 
+show dhcp anti-attack 
+show dhcp max-hops 
+show dhcp option60 interface supervlan-interface 1 
+show dhcp option60 interface vlan-interface 1 
+show dhcp option60 
+show dhcp option82 interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 to ethernet 1/1 
+show dhcp option82 interface ethernet 1/1 
+show dhcp option82 interface gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp option82 interface gpon 0/1 gpon 0/1 gpon 0/1 
+show dhcp option82 interface gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp option82 interface gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show dhcp option82 interface gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp option82 interface gpon 0/1 gpon 0/1 
+show dhcp option82 interface gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp option82 interface gpon 0/1 to gpon 0/1 gpon 0/1 gpon 0/1 
+show dhcp option82 interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp option82 interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 gpon 0/1 
+show dhcp option82 interface gpon 0/1 to gpon 0/1 gpon 0/1 to gpon 0/1 
+show dhcp option82 interface gpon 0/1 to gpon 0/1 gpon 0/1 
+show dhcp option82 interface gpon 0/1 to gpon 0/1 
+show dhcp option82 interface gpon 0/1 
+show dhcp option82 vlan c 
+show dhcp option82 vlan 
+show dhcp option82 
+show dhcp-server 1 
+show dhcp-server clients 1.1.1.1 1.1.1.1 
+show dhcp-server clients 1.1.1.1 
+show dhcp-server clients A:A:A:A:A:A 
+show dhcp-server clients c 
+show dhcp-server clients 
+show dhcp-server interface supervlan-interface 1 
+show dhcp-server interface vlan-interface 1 
+show dhcp-server interface 
+show dhcp-server 
+show dhcpv6-relay interface vlan-interface 1 
+show dhcpv6-relay 
+show dhcpv6-server interface vlan-interface 1 
+show dhcpv6-server ip-in-use address A:A::A:A 
+show dhcpv6-server ip-in-use pool 1 
+show dhcpv6-server ip-in-use 
+show dhcpv6-server 
+show igmp-proxy 
+show ip def cpu 
+show ip fdb 1.1.1.1 1.1.1.1 
+show ip fdb 1.1.1.1 
+show ip fdb 
+show ip icmp mask-reply 
+show ip icmp unreachable supervlan-interface 1 
+show ip icmp unreachable vlan-interface 1 
+show ip icmp unreachable 
+show ip igmp groups 1.1.1.1 
+show ip igmp groups dynamic 
+show ip igmp groups static 
+show ip igmp groups 
+show ip igmp interface 
+show ip igmp ssm-mapping 1.1.1.1 
+show ip igmp ssm-mapping 
+show ip interface loopback-interface 0 
+show ip interface loopback-interface 
+show ip interface meth-interface 0 
+show ip interface 
+show ip lpm 1.1.1.1 
+show ip lpm 
+show ip mroute 1.1.1.1 dynamic 
+show ip mroute 1.1.1.1 static 
+show ip mroute 1.1.1.1 
+show ip mroute 
+show ip ospf 0 area 1.1.1.1 
+show ip ospf 0 area 0 
+show ip ospf 0 border-routers 
+show ip ospf 0 cumulative 
+show ip ospf 0 database adv-router 1.1.1.1 lsa-type 1 
+show ip ospf 0 database adv-router 1.1.1.1 
+show ip ospf 0 database 
+show ip ospf 0 neighbor 
+show ip ospf 0 request-list 
+show ip ospf 0 retrans-list 
+show ip ospf 0 virtual-link 
+show ip ospf 0 
+show ip ospf distribute-list 
+show ip ospf error 
+show ip ospf 
+show ip pim bsr 
+show ip pim interface 
+show ip pim neighbor 
+show ip pim rp-info 1.1.1.1 
+show ip pim rp-info 
+show ip pim ssm range 
+show ip pool c 0 
+show ip pool c 
+show ip pool 
+show ip pool-brief 
+show ip prefix-list c 
+show ip prefix-list 
+show ip rip interface loopback-interface 0 
+show ip rip interface 
+show ip rip 
+show ip route 1.1.1.1 1.1.1.1 
+show ip route 1.1.1.1 
+show ip route ecmp 1.1.1.1 1.1.1.1 
+show ip route ecmp 1.1.1.1 
+show ip route ecmp static 
+show ip route ecmp 
+show ip route 
+show ipv6 fdb 
+show ipv6 icmpv6 multicast-echo-reply 
+show ipv6 interface loopback-interface 0 
+show ipv6 interface meth-interface 0 
+show ipv6 interface supervlan-interface 1 
+show ipv6 interface vlan-interface 1 
+show ipv6 interface 
+show ipv6 local route ospf 
+show ipv6 lpm 
+show ipv6 nd dad attempts 
+show ipv6 nd ns retrans-time 
+show ipv6 nd ra halt 
+show ipv6 nd ra hop-limit 
+show ipv6 nd ra interval 
+show ipv6 nd ra prefix A:A::A:A/1 
+show ipv6 nd ra prefix 
+show ipv6 nd ra router-lifetime 
+show ipv6 nd reachable-time 
+show ipv6 neighbors A:A::A:A 
+show ipv6 neighbors all 
+show ipv6 neighbors dynamic 
+show ipv6 neighbors mac A:A:A:A:A:A 
+show ipv6 neighbors max-learning-num 
+show ipv6 neighbors static 
+show ipv6 ospf 1.1.1.1 
+show ipv6 ospf 0 
+show ipv6 ospf border-routers 
+show ipv6 ospf cumulative 
+show ipv6 ospf database 
+show ipv6 ospf error 
+show ipv6 ospf interface supervlan-interface 1 
+show ipv6 ospf interface vlan-interface 1 
+show ipv6 ospf interface 
+show ipv6 ospf neighbor 
+show ipv6 ospf request-list 
+show ipv6 ospf retrans-list 
+show ipv6 ospf virtual-link 
+show ipv6 ospf 
+show ipv6 pool 1 
+show ipv6 pool 
+show ipv6 route ospf 
+show ipv6 route 
+show ntp access 
+show ntp authentication 
+show ntp broadcast client supervlan-interface 1 
+show ntp broadcast client vlan-interface 1 
+show ntp broadcast client 
+show ntp broadcast server supervlan-interface 1 
+show ntp broadcast server vlan-interface 1 
+show ntp broadcast server 
+show ntp disable supervlan-interface 1 
+show ntp disable vlan-interface 1 
+show ntp disable 
+show ntp max-dynamic-sessions 
+show ntp multicast client supervlan-interface 1 
+show ntp multicast client vlan-interface 1 
+show ntp multicast client 
+show ntp multicast server supervlan-interface 1 
+show ntp multicast server vlan-interface 1 
+show ntp multicast server 
+show ntp reference-clock 
+show ntp sessions 
+show ntp status 
+show ntp unicast peer 
+show ntp unicast server 
+show shutdown interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show shutdown interface ethernet 1/1 to ethernet 1/1 
+show shutdown interface ethernet 1/1 
+show shutdown interface 
+show urpf interface supervlan-interface 1 
+show urpf interface vlan-interface 1 
+show urpf 
+show vrrp supervlan-interface 1 1 
+show vrrp supervlan-interface 1 
+show vrrp vlan-interface 1 1 
+show vrrp vlan-interface 1 
+show vrrp 

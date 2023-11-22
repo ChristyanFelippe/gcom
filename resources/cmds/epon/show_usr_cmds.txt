@@ -1,0 +1,202 @@
+show version 
+show system 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf perlines 0 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp sntpc srm ssh stack static_route stp syslog tacacs+ udld urpf vlan vrrp 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp sntpc srm ssh stack static_route stp syslog tacacs+ udld urpf vlan 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp sntpc srm ssh stack static_route stp syslog tacacs+ udld urpf 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp sntpc srm ssh stack static_route stp syslog tacacs+ udld 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp sntpc srm ssh stack static_route stp syslog tacacs+ 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp sntpc srm ssh stack static_route stp syslog 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp sntpc srm ssh stack static_route stp 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp sntpc srm ssh stack static_route 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp sntpc srm ssh stack 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp sntpc srm ssh 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp sntpc srm 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp sntpc 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow snmp 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common sflow 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon route_common 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip rmon 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror rip 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd remote_mirror 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius radvd 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl radius 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus pvst qacl 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation pppoeplus 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim port_isolation 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf pim 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile ospf 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt onuprofile 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt slot 0 port 1 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt slot 0 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam onumnt 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp oam 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp ndp 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink mstp 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping mlink 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror mld_snooping 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm mirror 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp mailalarm 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation lldp 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool link_aggregation 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping ippool 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp igmp_snooping 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if igmp 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink if 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp gnlink 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp flink garp 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps errp 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon erps 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm epon 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x efm 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping dot1x 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping dhcpv6snooping 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp dhcpsnooping 
+show running-config anti-attack arp bfd bgp cfm classification device dhcp 
+show running-config anti-attack arp bfd bgp cfm classification device 
+show running-config anti-attack arp bfd bgp cfm classification 
+show running-config anti-attack arp bfd bgp cfm 
+show running-config anti-attack arp bfd bgp 
+show running-config anti-attack arp bfd 
+show running-config anti-attack arp 
+show running-config anti-attack 
+show running-config 
+show cpu-statistics ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show cpu-statistics ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show cpu-statistics ethernet 1/1 ethernet 1/1 pon 0/1 
+show cpu-statistics ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show cpu-statistics ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show cpu-statistics ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show cpu-statistics ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics ethernet 1/1 ethernet 1/1 
+show cpu-statistics ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics ethernet 1/1 pon 0/1 ethernet 1/1 
+show cpu-statistics ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show cpu-statistics ethernet 1/1 pon 0/1 pon 0/1 
+show cpu-statistics ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show cpu-statistics ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show cpu-statistics ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show cpu-statistics ethernet 1/1 pon 0/1 to pon 0/1 
+show cpu-statistics ethernet 1/1 pon 0/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 ethernet 1/1 pon 0/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 pon 0/1 ethernet 1/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 to pon 0/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 pon 0/1 pon 0/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 pon 0/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 pon 0/1 
+show cpu-statistics ethernet 1/1 to ethernet 1/1 
+show cpu-statistics ethernet 1/1 
+show cpu-statistics pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics pon 0/1 ethernet 1/1 ethernet 1/1 
+show cpu-statistics pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show cpu-statistics pon 0/1 ethernet 1/1 pon 0/1 
+show cpu-statistics pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show cpu-statistics pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show cpu-statistics pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show cpu-statistics pon 0/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics pon 0/1 ethernet 1/1 
+show cpu-statistics pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics pon 0/1 pon 0/1 ethernet 1/1 
+show cpu-statistics pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show cpu-statistics pon 0/1 pon 0/1 pon 0/1 
+show cpu-statistics pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show cpu-statistics pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show cpu-statistics pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show cpu-statistics pon 0/1 pon 0/1 to pon 0/1 
+show cpu-statistics pon 0/1 pon 0/1 
+show cpu-statistics pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics pon 0/1 to pon 0/1 ethernet 1/1 ethernet 1/1 
+show cpu-statistics pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 to pon 0/1 
+show cpu-statistics pon 0/1 to pon 0/1 ethernet 1/1 pon 0/1 
+show cpu-statistics pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show cpu-statistics pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 to pon 0/1 
+show cpu-statistics pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 pon 0/1 
+show cpu-statistics pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics pon 0/1 to pon 0/1 ethernet 1/1 
+show cpu-statistics pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics pon 0/1 to pon 0/1 pon 0/1 ethernet 1/1 
+show cpu-statistics pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show cpu-statistics pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show cpu-statistics pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 to ethernet 1/1 
+show cpu-statistics pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 ethernet 1/1 
+show cpu-statistics pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show cpu-statistics pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show cpu-statistics pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show cpu-statistics pon 0/1 to pon 0/1 pon 0/1 
+show cpu-statistics pon 0/1 to pon 0/1 
+show cpu-statistics pon 0/1 
+show cpu-statistics 
+show cpu-utilization 
+show cpu-classification interface ethernet 1/1 
+show cpu-classification 
+show memory 
+show utilization channel-group 
+show utilization interface 
+show statistics channel-group 0 
+show statistics channel-group 
+show statistics dynamic channel-group 
+show statistics dynamic interface 
+show statistics interface brief ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show statistics interface brief ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show statistics interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show statistics interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show statistics interface brief ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show statistics interface brief ethernet 1/1 ethernet 1/1 
+show statistics interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show statistics interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show statistics interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show statistics interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show statistics interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show statistics interface brief ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show statistics interface brief ethernet 1/1 to ethernet 1/1 
+show statistics interface brief ethernet 1/1 
+show statistics interface brief 
+show statistics interface ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show statistics interface ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show statistics interface ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show statistics interface ethernet 1/1 ethernet 1/1 
+show statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 ethernet 1/1 
+show statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 to ethernet 1/1 
+show statistics interface ethernet 1/1 to ethernet 1/1 ethernet 1/1 
+show statistics interface ethernet 1/1 to ethernet 1/1 
+show statistics interface ethernet 1/1 
+show statistics interface pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show statistics interface pon 0/1 pon 0/1 pon 0/1 
+show statistics interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show statistics interface pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show statistics interface pon 0/1 pon 0/1 to pon 0/1 
+show statistics interface pon 0/1 pon 0/1 
+show statistics interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 to pon 0/1 
+show statistics interface pon 0/1 to pon 0/1 pon 0/1 pon 0/1 
+show statistics interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show statistics interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 pon 0/1 
+show statistics interface pon 0/1 to pon 0/1 pon 0/1 to pon 0/1 
+show statistics interface pon 0/1 to pon 0/1 pon 0/1 
+show statistics interface pon 0/1 to pon 0/1 
+show statistics interface pon 0/1 
+show statistics interface 
